@@ -1,3 +1,4 @@
+import {hasServerConnection} from './runtime-config';
 import {createEmailAuth, verifiedEmailSession} from './email-sessions';
 import {passwordCustomer} from './password-auth';
 import {runtime} from './runtime';
@@ -16,5 +17,5 @@ export async function rememberCustomer(user: {userId: string; email: string; dis
 }
 export function customerProviderStatus() {
   const env = runtime();
-  return {password: !!(env.SUPABASE_URL && env.SUPABASE_PUBLISHABLE_KEY && env.SUPABASE_BRIDGE_KEY)};
+  return {password: !!env.SUPABASE_PUBLISHABLE_KEY&&hasServerConnection(env)};
 }

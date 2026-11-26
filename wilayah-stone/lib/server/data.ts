@@ -1,10 +1,11 @@
+import {usesDirectSupabase,directRecord,directFile} from './supabase-direct';
 import {HttpError} from '../http';
 import {runtime} from './runtime';
 export type RecordRow<T=any>={id:string;kind:string;owner:string;data:T;created:string;updated:string};
 export function backend(){return runtime().DATA_BACKEND==='supabase'?'supabase':'d1'}
 function base(){const e=runtime();if(!e.SUPABASE_URL||!e.SUPABASE_BRIDGE_KEY)throw Error('Store connection unavailable');const url=new URL(e.SUPABASE_URL);if(url.protocol!=='https:'||!/^[-a-z0-9]+\.supabase\.co$/.test(url.hostname)||url.pathname!=='/'||url.search||url.hash)throw Error('Store connection unavailable');return {url:url.origin+'/functions/v1/store-backend',key:e.SUPABASE_BRIDGE_KEY}}
-async function bridge(path:string,init:RequestInit={}){const {url,key}=base();const headers=new Headers(init.headers);headers.set('x-store-key',key);const r=await fetch(url+path,{...init,cache:'no-store',headers,signal:AbortSignal.timeout(15000),redirect:'manual'});if(!r.ok)throw Error('Store operation unavailable (HTTP '+r.status+')');return r}
-async function call(op:string,args:unknown):Promise<any>{return (await bridge('/records',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({op,args})})).json()}
+async function bridge(path:string,init:RequestInit={}){if(usesDirectSupabase()){if(path.startsWith('/files/'))return directFile(path.slice(7),init);throw Error('Unsupported direct backend path')}const {url,key}=base();const headers=new Headers(init.headers);headers.set('x-store-key',key);const r=await fetch(url+path,{...init,cache:'no-store',headers,signal:AbortSignal.timeout(15000),redirect:'manual'});if(!r.ok)throw Error('Store operation unavailable (HTTP '+r.status+')');return r}
+async function call(op:string,args:unknown):Promise<any>{if(usesDirectSupabase())return directRecord(op,args);return (await bridge('/records',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({op,args})})).json()}
 function row(r:any):RecordRow{return {...r,data:typeof r.data==='string'?JSON.parse(r.data):r.data}}
 export async function listRecords(kind:string,owner?:string,limit=100,offset=0):Promise<RecordRow[]>{
  limit=Math.min(500,Math.max(1,limit));offset=Math.max(0,offset);
