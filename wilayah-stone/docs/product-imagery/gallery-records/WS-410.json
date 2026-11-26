@@ -1,0 +1,16 @@
+{
+  "id": "WS-410",
+  "kind": "ring",
+  "sourceFile": "exec-4884aa1c-d565-411a-a35f-63c48f5f8b90.png",
+  "sourceSha256": "55fc0bc8067f9d579d36458f50cd4bed4fcf7a2ea327143cc1de179b4c488f2e",
+  "files": [
+    {
+      "path": "public/assets/products/ws-410-detail-480.webp",
+      "bytes": 28186
+    },
+    {
+      "path": "public/assets/products/ws-410-detail-960.webp",
+      "bytes": 107784
+    }
+  ]
+}

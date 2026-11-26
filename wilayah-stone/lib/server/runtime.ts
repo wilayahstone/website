@@ -1,0 +1,4 @@
+import {env} from '@store/runtime-env';
+export type Runtime={DB:D1Database;BUCKET:R2Bucket;DATA_BACKEND?:string;SUPABASE_URL?:string;SUPABASE_SECRET_KEY?:string;SUPABASE_STORAGE_BUCKET?:string;ADMIN_BOOTSTRAP_EMAIL?:string;AI_GATEWAY_URL?:string;AI_GATEWAY_KEY?:string;AI_MODEL?:string;};
+export type StoreRuntime=Runtime & {HOSTING_PLATFORM?:string;SUPABASE_BRIDGE_KEY?:string;SUPABASE_PUBLISHABLE_KEY?:string;ADMIN_AUTH_ORIGIN?:string;ADMIN_AUTH_ALLOWED_ORIGINS?:string;PUBLIC_SITE_ORIGIN?:string;ADMIN_ACCESS_MODE?:string;ADMIN_SHARED_CODE?:string;EMAIL_OTP_PROVIDER?:string;EMAIL_OTP_FROM?:string;EMAIL_OTP_REPLY_TO?:string;EMAIL_OTP_SECRET?:string;RESEND_API_KEY?:string;GMAIL_CLIENT_ID?:string;GMAIL_CLIENT_SECRET?:string;GMAIL_REFRESH_TOKEN?:string};
+export const runtime=()=>env as unknown as StoreRuntime;

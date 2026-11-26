@@ -1,0 +1,16 @@
+{
+  "id": "WS-411",
+  "kind": "ring",
+  "sourceFile": "exec-aaedcc8c-905e-4bab-a459-a0288e4e4b1a.png",
+  "sourceSha256": "d7f4027b2028596f42d027ec048848e2afb6cfdc86ba1b2b5c51fbc75740a864",
+  "files": [
+    {
+      "path": "public/assets/products/ws-411-detail-480.webp",
+      "bytes": 27312
+    },
+    {
+      "path": "public/assets/products/ws-411-detail-960.webp",
+      "bytes": 107020
+    }
+  ]
+}

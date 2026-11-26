@@ -1,0 +1,16 @@
+{
+  "id": "WS-310",
+  "kind": "ring",
+  "sourceFile": "exec-6259c615-504c-40da-a863-bd4774b3d127.png",
+  "sourceSha256": "fd372e2f06746f68a6ecd0fa5e8e55b0281fc2d36371afb5a9983b9b56848544",
+  "files": [
+    {
+      "path": "public/assets/products/ws-310-detail-480.webp",
+      "bytes": 27172
+    },
+    {
+      "path": "public/assets/products/ws-310-detail-960.webp",
+      "bytes": 98346
+    }
+  ]
+}

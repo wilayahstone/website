@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+const modules=new Map();
+function moduleUrl(file){file=path.resolve(file);if(modules.has(file))return modules.get(file);let source=file.endsWith('/runtime.ts')?'export const runtime=()=>globalThis.siteOriginTest':ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;source=source.replace(/from\s+(['"])([^'"]+)\1/g,(_,q,s)=>`from '${moduleUrl(path.resolve(path.dirname(file),s+'.ts'))}'`);const value='data:text/javascript;base64,'+Buffer.from(source).toString('base64');modules.set(file,value);return value}
+const {publicSiteOrigin}=await import(moduleUrl('lib/server/site-origin.ts'));
+const {httpsOrigin,customSiteOrigin,legacySiteOrigin}=await import(moduleUrl('lib/site.ts'));
+test('canonical URLs stay on the working address until custom-domain activation',()=>{globalThis.siteOriginTest={};assert.equal(publicSiteOrigin(),legacySiteOrigin);assert.equal(publicSiteOrigin(new Request(legacySiteOrigin+'/collection')),legacySiteOrigin);assert.equal(publicSiteOrigin(new Request(customSiteOrigin+'/collection')),customSiteOrigin)});
+test('activated canonical origin applies to existing-host and unknown-host requests without host injection',()=>{globalThis.siteOriginTest={PUBLIC_SITE_ORIGIN:customSiteOrigin};for(const host of [legacySiteOrigin,customSiteOrigin,'https://evil.example'])assert.equal(publicSiteOrigin(new Request(host+'/journal')),customSiteOrigin)});
+test('unknown configured URLs and forwarded headers cannot poison SEO links',()=>{globalThis.siteOriginTest={PUBLIC_SITE_ORIGIN:'https://evil.example'};assert.equal(publicSiteOrigin(new Request('https://unlisted.example',{headers:{'x-forwarded-host':'evil.example'}})),legacySiteOrigin);assert.equal(publicSiteOrigin(new Request(customSiteOrigin+'.evil.example')),legacySiteOrigin)});
+test('origin settings reject paths, credentials, cleartext HTTP, queries and fragments',()=>{for(const value of [undefined,'http://store.example','https://store.example/path','https://user:pass@store.example','https://store.example?next=evil','https://store.example#hash','not a URL'])assert.equal(httpsOrigin(value),null);assert.equal(httpsOrigin('https://store.example/'),'https://store.example')});
+test('the Node/Vercel adapter accepts only an explicitly configured HTTPS canonical origin',()=>{globalThis.siteOriginTest={HOSTING_PLATFORM:'node',PUBLIC_SITE_ORIGIN:'https://company-store.vercel.app'};assert.equal(publicSiteOrigin(new Request('https://forged.example')),'https://company-store.vercel.app');globalThis.siteOriginTest.PUBLIC_SITE_ORIGIN='https://company-store.vercel.app/path';assert.equal(publicSiteOrigin(),legacySiteOrigin)});

@@ -1,0 +1,30 @@
+/* Flat navigation controls. Raised styles elsewhere in the store are unchanged. */
+.site-header{box-shadow:none;background-image:none}
+.site-header button,.site-header button:hover,.site-header button:active,
+.site-header input,.site-header input:focus,.site-header select,.site-header select:focus,
+.site-header .navbar-search form{box-shadow:none;background-image:none}
+
+.site-header .header-actions>button,.site-header .header-actions>.account-link{
+  background:transparent;border:0;border-radius:4px;box-shadow:none;transform:none;
+  transition:background-color 180ms,color 180ms;
+}
+.site-header .header-actions>button:hover,.site-header .header-actions>.account-link:hover{
+  background:#f1f5ee;color:var(--green);box-shadow:none;transform:none;
+}
+.site-header .header-actions>button:active,.site-header .header-actions>.account-link:active{
+  background:#e6ede2;box-shadow:none;transform:none;
+}
+.site-header .header-currency .currency-select select{
+  background:#fff;border:1px solid #dce3d7;border-radius:4px;box-shadow:none;
+}
+.site-header .navbar-search form{
+  background:#fff;border:1px solid #d5ddcc;border-radius:4px;box-shadow:none;
+}
+.site-header .navbar-search form:focus-within{border-color:var(--green)}
+.site-header .navbar-search button,.site-header .search-popular button{border-radius:4px;box-shadow:none}
+@media(max-width:600px){
+  .site-header .header-currency .currency-select select{background:#083d2e;border:0;border-radius:0}
+}
+@media(prefers-reduced-motion:reduce){
+  .site-header .header-actions>button,.site-header .header-actions>.account-link{transition:none}
+}

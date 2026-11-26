@@ -1,0 +1,16 @@
+{
+  "id": "WS-406",
+  "kind": "ring",
+  "sourceFile": "exec-46bbf248-a253-4d18-87eb-6b482a3accba.png",
+  "sourceSha256": "2d9ceb82131ffb74df67ab3f91d52718a0f1a1bd83b1f59f39864c6a0c94c081",
+  "files": [
+    {
+      "path": "public/assets/products/ws-406-detail-480.webp",
+      "bytes": 27820
+    },
+    {
+      "path": "public/assets/products/ws-406-detail-960.webp",
+      "bytes": 109216
+    }
+  ]
+}

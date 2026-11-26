@@ -1,0 +1,5 @@
+Wilayah Stone — final source and local assets backup, 25 November 2026.
+Extract wilayah-stone and read README.md and docs/VERCEL-HANDOVER.md before tomorrow's GitHub/Vercel deployment.
+The database and remote uploaded media remain in the existing Supabase project. This ZIP contains the backend source/schema, not a live database dump.
+Runtime secrets are excluded; copy existing settings privately into Vercel as described in .env.example.
+The combined daily report is docs/DAILY-REPORT-2026-11-25.txt.

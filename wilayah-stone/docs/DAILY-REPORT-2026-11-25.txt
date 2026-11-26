@@ -1,0 +1,27 @@
+بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+اَللّٰهُمَّ صَلِّ عَلٰى مُحَمَّدٍ وَّآلِ مُحَمَّدٍ
+
+Daily Work Report
+Date: 25 November 2026
+Project: Wilayah Stone
+Work Coordination: Sayyid
+
+Today's work focused on completing the requested catalogue-management features, connecting their behaviour across the storefront and admin portal, and preparing the source code for the company's hosting handover.
+
+Product Variations was implemented with Color/Colour, Size, Material, Style and custom options. Each combination can have its own SKU, price and availability. Administrators can generate combinations, add individual variations, save unfinished work as a draft and return to it later. Existing prices and SKUs are preserved when additional combinations are generated. Duplicate SKU checks and atomic database saves protect catalogue consistency. Customer selections retain their variation, size and engraving through the selection bag, personalisation, WhatsApp message and recorded request/order workflows.
+
+The catalogue editor was expanded with product attributes for Color, Item Length, Metal, Number of Gemstones, Main Stone Depth, Main Stone Length, Main Stone Width, Theme and custom attributes. These details can be maintained per product and shown in customer-facing specifications. An attribute can also be copied into selectable variation options where appropriate.
+
+Scheduled listing publication was added. An administrator can select a future local date and time, with the publication instant stored consistently in UTC. Scheduled products remain hidden from the public catalogue, direct product access and public media eligibility until that time. Scheduled listings have their own admin filter. Draft and archived products remain hidden. A browser check identified and resolved an issue with committing the publication date field.
+
+Editable quantity discounts were added. The portal supports the suggested Buy 2/save 10%, Buy 3/save 15% and Buy 4 or more/save 20% tiers, while allowing staff to change minimum quantities and percentages without code changes. Quantities of variations of the same product count together. The highest qualifying tier applies once, and shipping is excluded. Customer quantity selections and WhatsApp briefs carry the applicable saving. Staff quotations and manual order records calculate discounts from unit prices in the agreed currency, and the server checks the discounted total. Recorded pricing agreements are retained after subsequent catalogue changes.
+
+Quality checks covered 165 automated tests, TypeScript validation, transactional database checks with rollback, and browser checks of variations, scheduling and quantity pricing. Desktop and narrow-screen variation controls were checked. The standard Next.js production build for Vercel was also checked. Test-only review routes are removed from the release. No real product listings or customer sales were created as part of these checks.
+
+A final source-and-assets handover package was prepared with frontend and backend code, the admin portal, Supabase Edge Function source and schema SQL, local images and brand assets, tests, dependency lockfile, environment template and Vercel deployment instructions. The package does not contain live secrets, customer records, a remote database dump or copies of remote Storage objects. Existing data and uploaded media remain in the company's current Supabase project and can continue to be used after the hosting move.
+
+The website feature work and code handover are wrapped up for this release. Product listing content and supplier confirmation remain with the responsible team; completion of those tasks is not claimed in this report. The controls support the stated requirements for clear specifications, honest communication, agreed pricing and delivery commitments. This technical work is not a separate religious certification of individual products or sale contracts.
+
+The company GitHub repository setup, source upload, Vercel deployment and final-domain checks are planned for tomorrow, 26 November 2026. Those external deployment steps have not been completed today. The existing live website remains the current published version until the company completes and checks the Vercel migration.
+
+Prepared by: Sayyid

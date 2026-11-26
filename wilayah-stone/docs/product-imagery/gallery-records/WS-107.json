@@ -1,0 +1,16 @@
+{
+  "id": "WS-107",
+  "kind": "ring",
+  "sourceFile": "exec-55d7597e-cb49-4f17-ac50-b5ec223e6be3.png",
+  "sourceSha256": "b743d71e554f161bd21f05141d1277b6894b69a7ce89f5c99cb47595f7da3bc0",
+  "files": [
+    {
+      "path": "public/assets/products/ws-107-detail-480.webp",
+      "bytes": 27698
+    },
+    {
+      "path": "public/assets/products/ws-107-detail-960.webp",
+      "bytes": 96528
+    }
+  ]
+}

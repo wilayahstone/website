@@ -1,0 +1,2 @@
+export const stoneImageNames:Record<string,string>={Aqeeq:'aqeeq',Firoza:'firoza','Dur-e-Najaf':'durr-e-najaf','Hadeed-e-Chini':'hadeed-e-chini',Yaqoot:'yaqoot',Peridot:'peridot',Emerald:'emerald',Marjaan:'marjaan'};
+export function gemstoneImage(stone:string){const slug=stoneImageNames[stone]||'aqeeq';return {src:`/assets/stones/${slug}-768.webp`,srcSet:`/assets/stones/${slug}-384.webp 384w, /assets/stones/${slug}-768.webp 768w`,alt:`${stone} gemstone — three-dimensional render`};}

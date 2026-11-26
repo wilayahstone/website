@@ -1,0 +1,2 @@
+import {gemstoneImage} from '../../lib/gemstone-imagery';
+export function GemstoneImage({stone}:{stone:string}){const image=gemstoneImage(stone);return <div className="gemstone-visual"><span className="gemstone-aura" aria-hidden="true"/><img src={image.src} srcSet={image.srcSet} sizes="(max-width:640px) 42vw, (max-width:1024px) 28vw, 20vw" alt={image.alt} width={768} height={768} loading="lazy" decoding="async"/></div>;}

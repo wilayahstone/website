@@ -1,0 +1,2 @@
+'use client';
+export default function ErrorPage({reset}:{reset:()=>void}){return <main className="section policy"><div className="eyebrow">WILAYAH STONE</div><h1>Let’s try that again.</h1><p>This page could not load. You can retry or return to the collection.</p><div className="product-actions"><button className="primary" onClick={reset}>Try again</button><a className="outline" href="/collection">Browse the collection</a></div></main>}

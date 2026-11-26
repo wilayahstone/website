@@ -1,0 +1,16 @@
+{
+  "id": "WS-308",
+  "kind": "ring",
+  "sourceFile": "exec-7712ea4e-2bf6-4636-8ab9-c792837127c8.png",
+  "sourceSha256": "3801b6ad9fcf27eb8ffe317b03fc0d87aaddcbfd7283fada74c4ed54bc181413",
+  "files": [
+    {
+      "path": "public/assets/products/ws-308-detail-480.webp",
+      "bytes": 26988
+    },
+    {
+      "path": "public/assets/products/ws-308-detail-960.webp",
+      "bytes": 96506
+    }
+  ]
+}

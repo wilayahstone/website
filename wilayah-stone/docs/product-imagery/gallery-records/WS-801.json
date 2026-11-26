@@ -1,0 +1,16 @@
+{
+  "id": "WS-801",
+  "kind": "ring",
+  "sourceFile": "exec-78c6a7a0-c664-4700-813c-6eba1f57ff2b.png",
+  "sourceSha256": "904ddeb365adfcf88d2c6e7951576431b32839b14ec673e495eb8bd174af6f16",
+  "files": [
+    {
+      "path": "public/assets/products/ws-801-detail-480.webp",
+      "bytes": 18286
+    },
+    {
+      "path": "public/assets/products/ws-801-detail-960.webp",
+      "bytes": 58932
+    }
+  ]
+}

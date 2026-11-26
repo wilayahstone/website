@@ -1,0 +1,16 @@
+{
+  "id": "emerald",
+  "kind": "gemstone",
+  "sourceFile": "exec-47c64d58-daac-4942-9426-0de6a921fa6c.png",
+  "sourceSha256": "ee4fb7cda68281c3ada6bbef0183f1b0d2508112f1e8574cfb047966c19ff23c",
+  "files": [
+    {
+      "path": "public/assets/stones/emerald-384.webp",
+      "bytes": 24232
+    },
+    {
+      "path": "public/assets/stones/emerald-768.webp",
+      "bytes": 78096
+    }
+  ]
+}

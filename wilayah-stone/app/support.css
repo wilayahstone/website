@@ -1,0 +1,52 @@
+.contact-form fieldset{border:0;margin:0;padding:0;min-width:0;display:flex;flex-direction:column;gap:20px}
+.contact-form fieldset:disabled input,.contact-form fieldset:disabled textarea{opacity:.65;cursor:not-allowed}
+.contact-form-note{font-size:11px;line-height:1.9;color:#5d715e}
+.contact-form-note a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.contact-form-error{font-size:12px;color:#8a3924;border-left:2px solid #a55435;padding:10px 13px;background:#fcf7f3}
+.contact-form>.primary,.enquiry-receipt .primary{min-height:48px;justify-content:center}
+.enquiry-receipt>svg{color:var(--green)}
+.enquiry-receipt>p{font-size:13px}
+.enquiry-receipt strong{overflow-wrap:anywhere}
+.support-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.account-enquiries{margin:46px 0}
+.account-enquiries>.support-heading{align-items:center;margin-bottom:24px}
+.account-enquiries>.support-heading h2{font-size:28px}
+.enquiry-card .support-heading h3{font-size:22px;max-width:85%;overflow-wrap:anywhere}
+.enquiry-card h4{font-size:12px;font-weight:500;margin:20px 0 8px}
+.enquiry-card p{font-size:12px;line-height:1.9}
+.support-reference{font-size:10px!important;color:#697b64;margin:13px 0 20px;overflow-wrap:anywhere}
+.support-response{margin-top:24px;border-left:2px solid var(--gold);padding:0 0 0 18px}
+.support-inbox{margin:32px 0 38px}
+.support-inbox>p{font-size:12px;line-height:1.9;margin-top:14px}
+.support-toolbar{display:grid;grid-template-columns:minmax(0,1fr) 200px;align-items:end;gap:18px;margin:24px 0 16px;max-width:900px}
+.support-toolbar label{font-size:12px;min-width:0}
+.support-toolbar label>span{display:flex;align-items:center;gap:8px}
+.support-toolbar input,.support-toolbar select{min-height:44px;width:100%}
+.support-thread{padding:24px!important}
+.support-thread summary{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;cursor:pointer;min-height:44px;list-style:none}
+.support-thread summary::-webkit-details-marker{display:none}
+.support-thread summary>span:first-child{display:flex;flex-direction:column;gap:9px;min-width:0}
+.support-thread summary strong{font-weight:500;font-size:18px;line-height:1.5;overflow-wrap:anywhere}
+.support-thread summary small{font-size:11px;line-height:1.8;color:#64745e;overflow-wrap:anywhere}
+.support-thread summary .pill{flex-shrink:0}
+.support-thread[open] summary{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:20px}
+.support-thread h3{font-size:17px;margin-bottom:12px}
+.support-thread>p,.support-thread p{font-size:12px;line-height:1.9}
+.support-original{margin:24px 0;padding:20px 0;border-bottom:1px solid var(--line)}
+.support-editor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.support-editor-grid label{min-width:0}
+.support-editor-grid small{font-size:10px;line-height:1.8;color:#697862}
+.support-thread select{min-height:44px;max-width:250px}
+.support-thread button{min-height:44px}
+.support-thread summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:800px){
+  .support-toolbar,.support-editor-grid{grid-template-columns:minmax(0,1fr)}
+  .support-thread{padding:20px 16px!important}
+  .support-thread summary{flex-wrap:wrap;gap:14px}
+  .support-thread summary strong{font-size:17px}
+  .support-thread select,.support-thread input,.support-thread textarea,.support-toolbar input,.support-toolbar select,.contact-form input,.contact-form textarea{font-size:16px}
+  .support-thread .primary{width:100%;justify-content:center}
+  .enquiry-card .support-heading h3{font-size:20px;max-width:100%}
+  .account-enquiries>.support-heading h2{font-size:26px}
+  .account-enquiries>.support-heading .outline{min-height:44px}
+}

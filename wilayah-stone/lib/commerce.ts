@@ -1,0 +1,7 @@
+import {z} from 'zod';
+import {paymentCurrencies} from './payments';
+export const quoteSchema=z.object({requestId:z.string().min(1).max(300),currency:z.enum(paymentCurrencies).default('PKR'),amountMinor:z.number().int().min(100).max(10000000000),specification:z.string().trim().min(40).max(6000),deliveryBy:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),expiresAt:z.string().datetime(),address:z.string().trim().min(15).max(1000),sellerDetails:z.string().trim().min(20).max(1000),proof:z.string().trim().min(5).max(1000),shippingMinor:z.number().int().min(0).max(10000000000),termsVersion:z.string().min(1).max(30)}).refine(q=>q.shippingMinor<=q.amountMinor,{message:'Shipping cannot exceed the quote total',path:['shippingMinor']});
+export type Quote=z.infer<typeof quoteSchema>&{state:'offered'|'payment_pending'|'accepted'|'withdrawn'|'expired';issuedAt:string};
+export function validQuoteDates(q:Pick<Quote,'expiresAt'|'deliveryBy'>,now=Date.now()){const day=new Date(q.deliveryBy+'T00:00:00Z');return Number.isFinite(day.getTime())&&day.toISOString().slice(0,10)===q.deliveryBy&&new Date(q.expiresAt).getTime()>now&&new Date(q.deliveryBy+'T23:59:59+05:00').getTime()>new Date(q.expiresAt).getTime()}
+export function safePublicStatus(status:string){return status==='Unavailable'?'Unavailable':'Made to order'}
+export function specificationText(value:string,fallback='Tailored to your selected stone'){return /awaiting|not yet verified/i.test(value)?fallback:value}

@@ -1,0 +1,16 @@
+{
+  "id": "hadeed-e-chini",
+  "kind": "gemstone",
+  "sourceFile": "exec-12eab2d6-74ac-4999-896e-d53ccc1d8232.png",
+  "sourceSha256": "9a374b13234486a3fe4fdf5e2d20a2e71501382268aa21f03516793618cc1694",
+  "files": [
+    {
+      "path": "public/assets/stones/hadeed-e-chini-384.webp",
+      "bytes": 15468
+    },
+    {
+      "path": "public/assets/stones/hadeed-e-chini-768.webp",
+      "bytes": 54094
+    }
+  ]
+}

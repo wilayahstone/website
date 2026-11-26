@@ -1,0 +1,16 @@
+{
+  "id": "aqeeq",
+  "kind": "gemstone",
+  "sourceFile": "exec-036b8f6f-a4e0-43cc-976b-9c2471ac8a9d.png",
+  "sourceSha256": "7416b097d1ff7d784d0a4c7b54c65ab87e2e283085c0a38ce79f58c65d951cb2",
+  "files": [
+    {
+      "path": "public/assets/stones/aqeeq-384.webp",
+      "bytes": 16514
+    },
+    {
+      "path": "public/assets/stones/aqeeq-768.webp",
+      "bytes": 47784
+    }
+  ]
+}

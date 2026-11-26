@@ -1,0 +1,16 @@
+{
+  "id": "WS-309",
+  "kind": "ring",
+  "sourceFile": "exec-fdd21052-f224-4ddc-a602-d9f07a17c4bb.png",
+  "sourceSha256": "ddaaa424c36a84587282a24ebed752d914faac85db3092b43254c90c175b2cd8",
+  "files": [
+    {
+      "path": "public/assets/products/ws-309-detail-480.webp",
+      "bytes": 28978
+    },
+    {
+      "path": "public/assets/products/ws-309-detail-960.webp",
+      "bytes": 103196
+    }
+  ]
+}

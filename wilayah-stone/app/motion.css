@@ -1,0 +1,60 @@
+/* Motion supports browsing. Surfaces stay flat; content is never hidden while waiting. */
+:root{--motion-ease:cubic-bezier(.22,.8,.25,1);--motion-fast:220ms;--motion-enter:650ms}
+
+@media(prefers-reduced-motion:no-preference){
+  [data-motion="revealed"]{animation:ws-rise var(--motion-enter) var(--motion-ease) var(--reveal-delay,0ms) both}
+  .hero-copy{animation:none}
+  .hero-copy>.eyebrow{animation:ws-rise 650ms var(--motion-ease) 30ms both}
+  .hero-copy>h1{animation:ws-rise 800ms var(--motion-ease) 110ms both}
+  .hero-copy>p{animation:ws-rise 800ms var(--motion-ease) 200ms both}
+  .hero-buttons{animation:ws-rise 750ms var(--motion-ease) 290ms both}
+  .hero-foot{animation:ws-rise 750ms var(--motion-ease) 370ms both}
+  .hero-image>img{animation:ws-image-settle 1300ms var(--motion-ease) both}
+  .hero-foot .gold-line{transform-origin:left;animation:ws-line 900ms var(--motion-ease) 500ms both}
+
+  .studio-transition{animation:ws-stone-change 550ms var(--motion-ease) both}
+  .studio-copy h3,.studio-copy .studio-description{animation:ws-rise 500ms var(--motion-ease) both}
+  .craft-story{animation:ws-rise 500ms var(--motion-ease) both}
+  .care-accordion details[open]>p{animation:ws-rise 320ms var(--motion-ease) both}
+  .care-accordion summary>span{transition:transform var(--motion-fast) var(--motion-ease)}
+  .care-accordion details[open]>summary>span{transform:rotate(45deg)}
+
+  .modal-backdrop{animation:ws-fade 180ms ease-out both}
+  .product-modal{animation:ws-dialog 340ms var(--motion-ease) both}
+  .toast{animation:ws-toast 320ms var(--motion-ease) both}
+  .heart[aria-pressed="true"]>svg{animation:ws-save 380ms var(--motion-ease)}
+  .header-actions sup{animation:ws-save 330ms var(--motion-ease)}
+
+  .primary,.light-button,.outline,.google-signin,.header-actions>button,.header-actions>.account-link,.heart{
+    transition:transform var(--motion-fast) var(--motion-ease),background-color var(--motion-fast),border-color var(--motion-fast),box-shadow var(--motion-fast)
+  }
+  .primary:active,.light-button:active,.outline:active,.header-actions>button:active,.heart:active{transform:translateY(1px) scale(.98)}
+  .product-image .art-button>.stone-art,.journal-visual>.stone-art,.journal-visual>img{transition:transform 650ms var(--motion-ease)}
+  .stone-categories .gem-orb{transition:transform 500ms var(--motion-ease)}
+  .product-bottom button svg,.text-link svg,.contact-channel-top svg:last-child,.footer-contact svg{transition:transform 280ms var(--motion-ease)}
+  .navbar-search,.site-header nav{transition-timing-function:var(--motion-ease)}
+  .search-suggestions{animation:ws-rise 260ms var(--motion-ease) both}
+}
+
+@media(prefers-reduced-motion:no-preference) and (hover:hover) and (pointer:fine){
+  .primary:hover,.light-button:hover,.outline:hover,.google-signin:hover{transform:translateY(-2px)}
+  .header-actions>button:hover,.header-actions>.account-link:hover,.heart:hover{transform:translateY(-2px)}
+  .product:hover .art-button>.stone-art,.product:focus-within .art-button>.stone-art{transform:scale(1.035)}
+  .journal-card:hover .journal-visual>.stone-art,.journal-card:hover .journal-visual>img{transform:scale(1.035)}
+  .stone-categories button:hover .gem-orb{transform:translateY(-4px) rotate(-4deg)}
+  .product-bottom button:hover svg,.text-link:hover svg,.contact-channel:hover .contact-channel-top svg:last-child{transform:translate(2px,-2px)}
+  .footer-contact a:hover svg{transform:translateY(-2px)}
+}
+
+@keyframes ws-rise{from{opacity:.35;translate:0 16px}to{opacity:1;translate:0 0}}
+@keyframes ws-fade{from{opacity:0}to{opacity:1}}
+@keyframes ws-image-settle{from{opacity:.6;transform:scale(1.035)}to{opacity:1;transform:scale(1)}}
+@keyframes ws-line{from{scale:0 1}to{scale:1 1}}
+@keyframes ws-stone-change{from{opacity:.25}to{opacity:1}}
+@keyframes ws-dialog{from{opacity:.5;translate:0 14px;scale:.985}to{opacity:1;translate:0 0;scale:1}}
+@keyframes ws-toast{from{opacity:0;translate:0 10px}to{opacity:1;translate:0 0}}
+@keyframes ws-save{0%{scale:1}45%{scale:1.18}100%{scale:1}}
+
+@media(prefers-reduced-motion:reduce){
+  [data-motion],.hero-copy>*,.hero-image>img,.studio-transition,.craft-story,.product-modal,.modal-backdrop,.toast{animation:none!important;translate:none!important;scale:none!important}
+}

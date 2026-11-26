@@ -1,0 +1,16 @@
+{
+  "id": "WS-312",
+  "kind": "ring",
+  "sourceFile": "exec-1fa5ffed-8c59-41ad-9ae1-6a9488a3de05.png",
+  "sourceSha256": "34b7e975ddd0ced9fc816aa14c0e1fbfca8fe8221071f4255416c22d006fb420",
+  "files": [
+    {
+      "path": "public/assets/products/ws-312-detail-480.webp",
+      "bytes": 28890
+    },
+    {
+      "path": "public/assets/products/ws-312-detail-960.webp",
+      "bytes": 107144
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "durr-e-najaf",
+  "kind": "gemstone",
+  "sourceFile": "exec-b392b85f-765f-4df0-bcf5-82a227f88c8a.png",
+  "sourceSha256": "0e145ee141955067bc3f1e8c22f583a731d60bab0b90beeec05c27649d85d5ec",
+  "files": [
+    {
+      "path": "public/assets/stones/durr-e-najaf-384.webp",
+      "bytes": 19372
+    },
+    {
+      "path": "public/assets/stones/durr-e-najaf-768.webp",
+      "bytes": 64120
+    }
+  ]
+}

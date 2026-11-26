@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="section policy"><div className="eyebrow">WILAYAH STONE · 404</div><h1>This page could not be found.</h1><p>Explore our gemstone ring designs or contact the atelier for help.</p><a className="primary" href="/collection">Explore the collection</a></main>}

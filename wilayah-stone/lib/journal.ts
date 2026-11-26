@@ -1,0 +1,16 @@
+import {z} from 'zod';
+import {catalog} from './catalog';
+import {respectfulText} from './imams';
+export type JournalData={title:string;slug:string;excerpt:string;body:string;category:string;seoTitle:string;seoDescription:string;coverProductId:string;coverImageId?:string|null;coverAlt?:string;author:string;published:boolean;publishedAt:string|null};
+export type JournalPost={id:string;kind?:string;owner?:string;data:JournalData;created:string;updated:string};
+export function respectfulJournal(post:JournalPost):JournalPost{const data={...post.data};for(const key of ['title','excerpt','body','seoTitle','seoDescription','author'] as const)if(typeof data[key]==='string')data[key]=respectfulText(data[key]);return {...post,data};}
+export function journalSlug(value:string){return value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,90).replace(/-$/,'')}
+const schema=z.object({title:z.string().trim().min(3).max(150),slug:z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).min(3).max(90),excerpt:z.string().trim().min(20).max(350),body:z.string().trim().min(100).max(30000),category:z.string().trim().min(2).max(60),seoTitle:z.string().trim().min(3).max(80),seoDescription:z.string().trim().min(30).max(180),coverProductId:z.string().refine(v=>catalog.some(p=>p.id===v),'Choose a catalogue image'),coverImageId:z.string().uuid().nullable().optional(),coverAlt:z.string().trim().max(200).optional(),author:z.string().trim().min(2).max(100),published:z.boolean(),publishedAt:z.string().datetime().nullable()});
+export function journalData(input:any,previous?:JournalData):JournalData{
+ const now=new Date().toISOString();const data=schema.parse({...input,slug:input.slug||journalSlug(input.title||''),excerpt:input.excerpt||String(input.body||'').replace(/^#{1,3}\s+/gm,'').slice(0,220),category:input.category||'The Wilayah Journal',seoTitle:input.seoTitle||input.title,seoDescription:input.seoDescription||String(input.excerpt||input.body||'').replace(/^#{1,3}\s+/gm,'').slice(0,155),coverProductId:input.coverProductId||'WS-101',author:input.author||'Wilayah Stone Editorial',publishedAt:input.published?(previous?.publishedAt||now):previous?.publishedAt||null});
+ if(previous?.publishedAt&&data.slug!==previous.slug)throw Error('Keep the published article URL unchanged.');return data;
+}
+export function journalPublic(p:any):p is JournalPost{return p?.data?.published===true&&!p.data.archivedAt&&typeof p.data.slug==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.data.slug)&&(!p.data.publishedAt||new Date(p.data.publishedAt).getTime()<=Date.now())}
+export function readingMinutes(body:string){return Math.max(1,Math.ceil(body.trim().split(/\s+/).length/200))}
+export function articleBlocks(body:string){return body.replace(/\r/g,'').trim().split(/\n\s*\n/).map((text,index)=>{const h=/^(#{2,3})\s+(.+)$/.exec(text);return h?{type:h[1].length===2?'h2':'h3',text:h[2],id:`section-${index}`}:{type:'p',text,id:`section-${index}`}})}
+export const legacyJournalSlugs:Record<string,string>={'choosing-your-stone':'choosing-a-gemstone-ring','engraving-with-care':'twelve-imam-ring-engraving','honest-trade':'made-to-order-ring-journey'};

@@ -1,0 +1,18 @@
+import {requireStoreAdmin} from '../../../../lib/server/admin-context';
+import {companyMailbox,activeMailConfig,loadMailCredentials,saveMailCredentials} from '../../../../lib/server/private-mail';
+import {getRecord,compareAndSet} from '../../../../lib/server/data';
+import {can,audit} from '../../../../lib/server/access';
+import {emailHash,emailSite} from '../../../../lib/server/email-sessions';
+export const dynamic='force-dynamic';
+function same(a:string,b:string){if(a.length!==b.length)return false;let result=0;for(let i=0;i<a.length;i++)result|=a.charCodeAt(i)^b.charCodeAt(i);return result===0}
+export async function GET(req:Request){let site=emailSite(req)?.site;if(!site)return new Response(null,{status:503});const done=(status:string)=>new Response(null,{status:303,headers:{Location:site+'/admin?mail='+status+'#email-delivery','Set-Cookie':'__Host-ws-mail-state=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax','Cache-Control':'private, no-store','Referrer-Policy':'no-referrer'}});
+ try{
+ const url=new URL(req.url);if(url.origin!==site)return done('failed');const ctx=await requireStoreAdmin(req);if(!can(ctx.staff.role,'settings.write'))return done('failed');const state=url.searchParams.get('state')||'',cookie=(req.headers.get('cookie')||'').split(';').map(v=>v.trim()).find(v=>v.startsWith('__Host-ws-mail-state='))?.slice('__Host-ws-mail-state='.length)||'';
+ if(!/^[a-f0-9]{64}$/.test(state)||!same(state,cookie))return done('expired');const row=await getRecord('mail-connect:'+await emailHash(state),'setting'),now=Date.now();if(!row||row.owner!=='auth:mail'||row.data.sessionId!==ctx.verified.sessionId||row.data.status!=='pending'||row.data.expiresAt<=now||row.data.createdAt>now||row.data.expiresAt-row.data.createdAt>600000)return done('expired');
+ const config=await activeMailConfig(),saved=await loadMailCredentials();if(row.data.clientId!==config.GMAIL_CLIENT_ID||!config.GMAIL_CLIENT_SECRET||!await compareAndSet(row,{...row.data,status:'used'}))return done('expired');if(url.searchParams.has('error'))return done('cancelled');const code=url.searchParams.get('code');if(!code||code.length>3000)return done('failed');
+ const exchange=await fetch('https://oauth2.googleapis.com/token',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({code,client_id:config.GMAIL_CLIENT_ID!,client_secret:config.GMAIL_CLIENT_SECRET,redirect_uri:site+'/auth/mail/callback',grant_type:'authorization_code'}),redirect:'manual',signal:AbortSignal.timeout(15000)}),tokens:any=await exchange.json().catch(()=>null);
+ if(!exchange.ok||typeof tokens?.access_token!=='string'||typeof tokens?.refresh_token!=='string'||tokens.token_type?.toLowerCase()!=='bearer'||!(tokens.scope||'').split(' ').includes('https://www.googleapis.com/auth/gmail.send'))return done('failed');
+ const response=await fetch('https://openidconnect.googleapis.com/v1/userinfo',{headers:{Authorization:'Bearer '+tokens.access_token},redirect:'manual',signal:AbortSignal.timeout(10000)}),account:any=await response.json().catch(()=>null),expected=companyMailbox();
+ if(!response.ok||account?.email_verified!==true||String(account.email).toLowerCase()!==expected.toLowerCase())return done('wrong_account');
+ await saveMailCredentials({...saved.credentials,GMAIL_CLIENT_ID:config.GMAIL_CLIENT_ID,GMAIL_CLIENT_SECRET:config.GMAIL_CLIENT_SECRET,GMAIL_REFRESH_TOKEN:tokens.refresh_token,EMAIL_OTP_PROVIDER:'gmail',EMAIL_OTP_FROM:'Wilayah Stone <'+expected+'>',EMAIL_OTP_REPLY_TO:expected},saved.record);await audit(ctx.staff,'mail.gmail_connected',null,{sender:expected});return done('connected');
+ }catch{return done('failed')}}

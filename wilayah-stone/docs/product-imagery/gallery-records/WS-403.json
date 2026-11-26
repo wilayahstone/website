@@ -1,0 +1,16 @@
+{
+  "id": "WS-403",
+  "kind": "ring",
+  "sourceFile": "exec-18e6cb0d-ab14-4e00-b216-b563434ac9ad.png",
+  "sourceSha256": "c36aff33f7b54d568f0ba1f37d1cd8c0072c0d59c01cd577462ed80cd1a61ea4",
+  "files": [
+    {
+      "path": "public/assets/products/ws-403-detail-480.webp",
+      "bytes": 24806
+    },
+    {
+      "path": "public/assets/products/ws-403-detail-960.webp",
+      "bytes": 98038
+    }
+  ]
+}

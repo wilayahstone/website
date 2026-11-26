@@ -1,0 +1,522 @@
+{
+  "created": "2026-11-11",
+  "method": "Built-in image generation",
+  "assets": [
+    {
+      "id": "aqeeq",
+      "name": "Aqeeq",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Aqeeq gemstone for Wilayah Stone's interactive stone collection. Subject: an oval domed deep carnelian-red agate cabochon, warm translucent edges, delicate internal stone texture. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "firoza",
+      "name": "Firoza",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Firoza gemstone for Wilayah Stone's interactive stone collection. Subject: an oval opaque turquoise-blue cabochon with delicate fine brown-grey matrix near the edges. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "durr-e-najaf",
+      "name": "Durr-e-Najaf",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Durr-e-Najaf gemstone for Wilayah Stone's interactive stone collection. Subject: an oval clear colourless quartz cabochon, soft natural-looking internal inclusions and physically realistic transparency. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "hadeed-e-chini",
+      "name": "Hadeed-e-Chini",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Hadeed-e-Chini gemstone for Wilayah Stone's interactive stone collection. Subject: an oval smooth polished dark charcoal metallic-grey hematite cabochon, subtle metallic reflections. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "yaqoot",
+      "name": "Yaqoot",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Yaqoot gemstone for Wilayah Stone's interactive stone collection. Subject: an oval deep raspberry-red ruby cabochon, subtle realistic internal inclusions. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "peridot",
+      "name": "Peridot",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Peridot gemstone for Wilayah Stone's interactive stone collection. Subject: an oval faceted luminous yellow-green peridot gemstone, precise facets and restrained realistic brilliance. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Emerald gemstone for Wilayah Stone's interactive stone collection. Subject: a rectangular emerald-cut deep green gemstone, visible garden-like inclusions, precise step facets. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "marjaan",
+      "name": "Marjaan",
+      "kind": "gemstone",
+      "prompt": "Use case: product-mockup. One premium 3D studio-rendered loose Marjaan gemstone for Wilayah Stone's interactive stone collection. Subject: an oval coral-red opaque cabochon with a smooth polish and subtle organic surface texture. Exactly ONE stone, absolutely no ring, no metal setting, no engravings, no letters, no people, no faces or hands. Square 1:1 composition. The entire stone floats in the centre with 16% generous empty margins, rotated about 15 degrees above a three-quarter viewing angle so its depth and silhouette are clear. Consistent soft studio key light from upper left and gentle fill from right, refined physically based material, crisp surface detail, believable refraction or opaque finish appropriate to this stone, no exaggerated sparkle, no glowing halo, no lens flare. Transparent background with a very soft subtle translucent shadow beneath the stone. No floor, no opaque backdrop, no text, labels, watermark or props. Match a cohesive premium jewellery catalogue: clean, restrained, high-resolution and beautifully sculptural."
+    },
+    {
+      "id": "WS-101",
+      "stone": "Aqeeq",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-101-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-101, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-102",
+      "stone": "Aqeeq",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-102-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-102, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-103",
+      "stone": "Aqeeq",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-103-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-103, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-104",
+      "stone": "Aqeeq",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-104-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-104, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «زين العابدين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-105",
+      "stone": "Aqeeq",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-105-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-105, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الباقر». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-106",
+      "stone": "Aqeeq",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-106-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-106, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «جعفر الصادق». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-107",
+      "stone": "Aqeeq",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-107-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-107, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «موسى الكاظم». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-108",
+      "stone": "Aqeeq",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-108-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-108, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الرضا». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-109",
+      "stone": "Aqeeq",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-109-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-109, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الجواد». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-110",
+      "stone": "Aqeeq",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-110-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-110, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الهادي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-111",
+      "stone": "Aqeeq",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-111-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-111, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن العسكري». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-112",
+      "stone": "Aqeeq",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-112-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Aqeeq ring, SKU WS-112, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد المهدي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-201",
+      "stone": "Firoza",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-201-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-201, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-202",
+      "stone": "Firoza",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-202-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-202, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-203",
+      "stone": "Firoza",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-203-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-203, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-204",
+      "stone": "Firoza",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-204-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-204, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «زين العابدين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-205",
+      "stone": "Firoza",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-205-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-205, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الباقر». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-206",
+      "stone": "Firoza",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-206-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-206, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «جعفر الصادق». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-207",
+      "stone": "Firoza",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-207-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-207, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «موسى الكاظم». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-208",
+      "stone": "Firoza",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-208-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-208, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الرضا». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-209",
+      "stone": "Firoza",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-209-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-209, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الجواد». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-210",
+      "stone": "Firoza",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-210-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-210, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الهادي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-211",
+      "stone": "Firoza",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-211-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-211, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن العسكري». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-212",
+      "stone": "Firoza",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-212-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Firoza ring, SKU WS-212, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد المهدي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-301",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-301-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-301, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-302",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-302-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-302, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-303",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-303-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-303, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-304",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-304-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-304, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «زين العابدين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-305",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-305-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-305, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الباقر». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-306",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-306-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-306, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «جعفر الصادق». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-307",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-307-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-307, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «موسى الكاظم». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-308",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-308-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-308, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الرضا». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-309",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-309-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-309, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الجواد». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-310",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-310-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-310, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الهادي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-311",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-311-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-311, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن العسكري». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-312",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-312-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Dur-e-Najaf ring, SKU WS-312, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد المهدي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-401",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-401-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-401, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-402",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-402-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-402, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-403",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-403-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-403, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-404",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-404-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-404, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «زين العابدين». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-405",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-405-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-405, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الباقر». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-406",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-406-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-406, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «جعفر الصادق». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-407",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-407-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-407, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «موسى الكاظم». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-408",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-408-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-408, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الرضا». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-409",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-409-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-409, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد الجواد». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-410",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-410-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-410, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «علي الهادي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-411",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-411-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-411, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «حسن العسكري». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-412",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-412-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Hadeed-e-Chini ring, SKU WS-412, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. The only inscription is the same exact Arabic name «محمد المهدي». Preserve its spelling, dots and letter order exactly; do not add, omit, duplicate or mirror any letters. A one-word name remains ONE connected word on ONE line. The reference engraving design is the invariant. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-501",
+      "stone": "Yaqoot ruby",
+      "engraving": "Plain",
+      "arabic": "",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-501-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Yaqoot ruby ring, SKU WS-501, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. Keep the stone completely plain, with absolutely no engraving or lettering. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-601",
+      "stone": "Peridot",
+      "engraving": "Plain",
+      "arabic": "",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-601-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Peridot ring, SKU WS-601, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. Keep the stone completely plain, with absolutely no engraving or lettering. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-701",
+      "stone": "Emerald",
+      "engraving": "Plain",
+      "arabic": "",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-701-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Emerald ring, SKU WS-701, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. Keep the stone completely plain, with absolutely no engraving or lettering. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    },
+    {
+      "id": "WS-801",
+      "stone": "Marjaan coral",
+      "engraving": "Plain",
+      "arabic": "",
+      "kind": "ring",
+      "reference": "/workspace/scratch/afb9a9e8107f/wilayah-stone/.sites-checkout/public/assets/products/ws-801-960.webp",
+      "prompt": "Use case: product-mockup. Create the SECOND VIEW of this exact Wilayah Stone Marjaan coral ring, SKU WS-801, using the supplied first view as the fixed product reference. Preserve the SAME ring geometry, silver arabesque shoulder carving, shank width, scalloped bezel, gemstone shape and size, stone colour, inclusions and surface finish. Keep the stone completely plain, with absolutely no engraving or lettering. Change the CAMERA VIEW ONLY: photograph the complete ring from its opposite three-quarter side, showing more of the other carved shoulder and the interior of the silver band, with the stone face still visible at a gentle angle. This must be a visibly distinct second angle, not the same view and not a mirrored image. Keep the identical warm ivory studio surface, seamless ivory backdrop, soft upper-left studio lighting, gentle shadow, colour balance, magnification and clean margins of the supplied image. One complete ring only, centered in a square 1:1 frame. No cropping, no additional rings, no inscriptions elsewhere, no people, hands or faces, no captions, logos, watermarks, certificates or props."
+    }
+  ]
+}

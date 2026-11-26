@@ -1,0 +1,16 @@
+{
+  "id": "firoza",
+  "kind": "gemstone",
+  "sourceFile": "exec-e0e920f2-9cbe-40dc-83eb-329bf4ffe022.png",
+  "sourceSha256": "4907379dd28826cce4cbe93f264f6dc2e479ba5728b42c25adefe416e4626a90",
+  "files": [
+    {
+      "path": "public/assets/stones/firoza-384.webp",
+      "bytes": 19780
+    },
+    {
+      "path": "public/assets/stones/firoza-768.webp",
+      "bytes": 61818
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "yaqoot",
+  "kind": "gemstone",
+  "sourceFile": "exec-24d87d84-aa8b-4ee1-8da9-9ebf5593ad9f.png",
+  "sourceSha256": "0456a016581fdfd907378a3fedc9097a280b8276d6f1730a190818a54942ac81",
+  "files": [
+    {
+      "path": "public/assets/stones/yaqoot-384.webp",
+      "bytes": 20286
+    },
+    {
+      "path": "public/assets/stones/yaqoot-768.webp",
+      "bytes": 68292
+    }
+  ]
+}

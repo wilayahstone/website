@@ -1,0 +1,16 @@
+{
+  "id": "marjaan",
+  "kind": "gemstone",
+  "sourceFile": "exec-1ae01159-77a1-4473-87d2-5d1278728141.png",
+  "sourceSha256": "2008de67eaa013f723cf07e44487cec695c9746d25081a2df0045abe4dfe901d",
+  "files": [
+    {
+      "path": "public/assets/stones/marjaan-384.webp",
+      "bytes": 20128
+    },
+    {
+      "path": "public/assets/stones/marjaan-768.webp",
+      "bytes": 66658
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "WS-207",
+  "kind": "ring",
+  "sourceFile": "exec-99fd600a-264c-4a1c-a99d-c1f3d1341711.png",
+  "sourceSha256": "b4b79d90c669f79e6f27c1710bff981bfea177c9ae5a3cb8181d308ffa801283",
+  "files": [
+    {
+      "path": "public/assets/products/ws-207-detail-480.webp",
+      "bytes": 29752
+    },
+    {
+      "path": "public/assets/products/ws-207-detail-960.webp",
+      "bytes": 98076
+    }
+  ]
+}

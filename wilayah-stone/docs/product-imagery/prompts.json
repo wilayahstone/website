@@ -1,0 +1,685 @@
+{
+  "created": "2026-11-11",
+  "generationMethod": "Built-in image_gen",
+  "assetKind": "Made-to-order ring renders",
+  "productCount": 52,
+  "responsiveWidths": [
+    480,
+    960
+  ],
+  "customerDisclosure": "Design renders are described beside detailed product images and in the imagery policy; image-overlay AI badges are removed.",
+  "products": [
+    {
+      "id": "WS-101",
+      "stone": "Aqeeq",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "prompt": "Use case: product-mockup. Create ONE premium realistic product image for Wilayah Stone, product SKU WS-101, a made-to-order men's silver ring with an oval deep warm carnelian-red Aqeeq agate cabochon. It is a design render, to guide a real jeweller making this exact model. Square 1:1 image. One ring only, no people, no hands, no faces. A solid polished sterling-silver-coloured shank with restrained engraved arabesque shoulders and a refined scalloped silver bezel, natural metal microtexture rather than mirror-plastic. Three-quarter front view, gemstone face clearly visible and turned almost toward camera, complete ring uncut and centered, occupies about 70% of image, 15% quiet margins. Matte warm ivory studio surface and seamless ivory background, soft directional daylight from upper left, gentle true-to-material shadows. The stone has elegant recessed Arabic calligraphy containing ONLY the exact name «علي» (Ali), spelled ع ل ي. Engraving must be readable, dignified and entirely within the stone, no extra letters or dots, no halo. No other writing, no watermark, no captions, no logo, no hallmarks or certificates. This is the consistent art direction for a full ring catalogue. Jewellery only, clean e-commerce macro product presentation.",
+      "sourceFile": "exec-2a5332ff-67a9-4857-9e8c-8691da18d67d.png",
+      "files": [
+        "public/assets/products/ws-101-480.webp",
+        "public/assets/products/ws-101-960.webp"
+      ],
+      "sourceSha256": "5fdc46f78c763e45fe4987404949f398d7cecfa1aaead32f17ce7cf73b9306c3"
+    },
+    {
+      "id": "WS-102",
+      "stone": "Aqeeq",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "prompt": "Use case: product-mockup. Correct the inscription for Wilayah Stone Aqeeq ring SKU WS-102 using this reference ring as the fixed model. Keep the red agate, silver ring, arabesque shoulders, scalloped bezel, framing, ivory studio background and lighting unchanged. Replace the inscription with ONLY the Arabic name «حسن». This is ONE word, exactly THREE connected letters: ح then س then ن. Render «حسن» on a SINGLE LINE across the centre of the stone. Absolutely no second line, no duplicated letters, no repetition, no added marks. Clear legible traditional Naskh Arabic, carved into the stone in dark recessed relief. One complete ring, square 1:1 premium product render. No captions, no labels, no watermark, no other text, no people, faces or hands.",
+      "sourceFile": "exec-fbf5124f-356e-4012-bb71-841f804ab6a8.png",
+      "files": [
+        "public/assets/products/ws-102-480.webp",
+        "public/assets/products/ws-102-960.webp"
+      ],
+      "sourceSha256": "3e5616b4337f5df3427ac67798f6116d0bb37425716ee661cc2a97308d7cb4b1"
+    },
+    {
+      "id": "WS-103",
+      "stone": "Aqeeq",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-103: Aqeeq with the name Imam Husayn. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «حسين». It must read حسين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-82f2b1df-88fd-456e-b3dc-5f7ebc9944e9.png",
+      "files": [
+        "public/assets/products/ws-103-480.webp",
+        "public/assets/products/ws-103-960.webp"
+      ],
+      "sourceSha256": "dd5a6d403d83c7739e5718ae023b8ae30890484501780e91b47a89ef68b3f0a2"
+    },
+    {
+      "id": "WS-104",
+      "stone": "Aqeeq",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-104: Aqeeq with the name Imam Zayn al-Abidin. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «زين العابدين». It must read زين العابدين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-3ee47646-2413-451c-99bf-f80a8a04c09c.png",
+      "files": [
+        "public/assets/products/ws-104-480.webp",
+        "public/assets/products/ws-104-960.webp"
+      ],
+      "sourceSha256": "aebedd6d4ecfcd8f0c9623144f194ebf194009a9fddd9e82138ac200c4387be6"
+    },
+    {
+      "id": "WS-105",
+      "stone": "Aqeeq",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-105: Aqeeq with the name Imam Muhammad al-Baqir. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «محمد الباقر». It must read محمد الباقر accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-5596e192-34ea-494a-b0d5-8894c527fa2a.png",
+      "files": [
+        "public/assets/products/ws-105-480.webp",
+        "public/assets/products/ws-105-960.webp"
+      ],
+      "sourceSha256": "0087c4c2d2fac5e33d81e5071a797afefd4498ab3b6b6bd27dfff99bb6f0461a"
+    },
+    {
+      "id": "WS-106",
+      "stone": "Aqeeq",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-106: Aqeeq with the name Imam Jafar al-Sadiq. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «جعفر الصادق». It must read جعفر الصادق accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-7508ad8d-4da4-44c8-8439-894d0b1cfcc4.png",
+      "files": [
+        "public/assets/products/ws-106-480.webp",
+        "public/assets/products/ws-106-960.webp"
+      ],
+      "sourceSha256": "e3356446f7e9f7178e768dcb0baa15df4767e221b1f547494f73f8d81cf22eee"
+    },
+    {
+      "id": "WS-107",
+      "stone": "Aqeeq",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-107: Aqeeq with the name Imam Musa al-Kazim. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «موسى الكاظم». It must read موسى الكاظم accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-9af6d86c-ca59-409a-9812-4b5f52d7327f.png",
+      "files": [
+        "public/assets/products/ws-107-480.webp",
+        "public/assets/products/ws-107-960.webp"
+      ],
+      "sourceSha256": "4c1d4c0696be6847c79986daf03b7d134c4d2bf44f392f44b6b4c82a70fbea7b"
+    },
+    {
+      "id": "WS-108",
+      "stone": "Aqeeq",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-108: Aqeeq with the name Imam Ali al-Rida. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «علي الرضا». It must read علي الرضا accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-9be7fe34-4c6c-40b4-aaf1-686489e07806.png",
+      "files": [
+        "public/assets/products/ws-108-480.webp",
+        "public/assets/products/ws-108-960.webp"
+      ],
+      "sourceSha256": "4461e8bacc92f570774f27591d79efcbfcccf259102bf120f65c9d21d7ae9bb8"
+    },
+    {
+      "id": "WS-109",
+      "stone": "Aqeeq",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-109: Aqeeq with the name Imam Muhammad al-Jawad. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «محمد الجواد». It must read محمد الجواد accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-58e9f68a-635e-4ffc-906c-eeaa7ec4456c.png",
+      "files": [
+        "public/assets/products/ws-109-480.webp",
+        "public/assets/products/ws-109-960.webp"
+      ],
+      "sourceSha256": "cde7010e3ba04fbd9b38a005707a8707bf0d1562642919b1cb5589a7bcddde26"
+    },
+    {
+      "id": "WS-110",
+      "stone": "Aqeeq",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-110: Aqeeq with the name Imam Ali al-Hadi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «علي الهادي». It must read علي الهادي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-06e0b725-64ea-4c26-8d80-a1d503c09105.png",
+      "files": [
+        "public/assets/products/ws-110-480.webp",
+        "public/assets/products/ws-110-960.webp"
+      ],
+      "sourceSha256": "5cafc6efd076241a5192f1c906ca9883028083f5868b45040b10ea506a8add14"
+    },
+    {
+      "id": "WS-111",
+      "stone": "Aqeeq",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-111: Aqeeq with the name Imam Hasan al-Askari. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «حسن العسكري». It must read حسن العسكري accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-7e9aa9c8-0452-46da-9d78-e090257315a1.png",
+      "files": [
+        "public/assets/products/ws-111-480.webp",
+        "public/assets/products/ws-111-960.webp"
+      ],
+      "sourceSha256": "82f68582cf838e2b294a785ddaa55ae925f4b362497ab11574674419884662c2"
+    },
+    {
+      "id": "WS-112",
+      "stone": "Aqeeq",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-112: Aqeeq with the name Imam Muhammad al-Mahdi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval warm translucent deep carnelian-red agate cabochon; recessed engraving in a darker shade of the same stone. Inscribe ONLY this exact Arabic name: «محمد المهدي». It must read محمد المهدي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-9abed6e8-ccdd-454c-9111-d3604769e1b2.png",
+      "files": [
+        "public/assets/products/ws-112-480.webp",
+        "public/assets/products/ws-112-960.webp"
+      ],
+      "sourceSha256": "9484c1c3cb604fc677ae8b2b6545eadb01c0b6a8a5be374cbec1b1daedcbade8"
+    },
+    {
+      "id": "WS-201",
+      "stone": "Firoza",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-201: Firoza with the name Imam Ali. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «علي». It must read علي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-aae70082-7d7c-45c9-9b8d-b8c68bac3c1d.png",
+      "files": [
+        "public/assets/products/ws-201-480.webp",
+        "public/assets/products/ws-201-960.webp"
+      ],
+      "sourceSha256": "0555ba7fcc75016c49f8f44964b5232915ac1d84b4ec52afc8e85b6c67aaf4b2"
+    },
+    {
+      "id": "WS-202",
+      "stone": "Firoza",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-202: Firoza with the name Imam Hasan. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «حسن». It must read حسن accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-88dd0075-b16a-48c3-bb90-6bb4a63ce8c4.png",
+      "files": [
+        "public/assets/products/ws-202-480.webp",
+        "public/assets/products/ws-202-960.webp"
+      ],
+      "sourceSha256": "bef94cac81c0f1f5040230f1c479f6496b820458bf3106f9fb9a137f7fbcc66c"
+    },
+    {
+      "id": "WS-203",
+      "stone": "Firoza",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-203: Firoza with the name Imam Husayn. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «حسين». It must read حسين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-b4dc0fa7-e1f3-4d2e-a2b6-2a109f9a0999.png",
+      "files": [
+        "public/assets/products/ws-203-480.webp",
+        "public/assets/products/ws-203-960.webp"
+      ],
+      "sourceSha256": "96df0d79faa12463a1dc26c7c037309f8b6aa04fa72ae863583f5cfd0a2e81b0"
+    },
+    {
+      "id": "WS-204",
+      "stone": "Firoza",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-204: Firoza with the name Imam Zayn al-Abidin. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «زين العابدين». It must read زين العابدين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-6f8b1601-4be2-4678-b794-9b3b8f06171f.png",
+      "files": [
+        "public/assets/products/ws-204-480.webp",
+        "public/assets/products/ws-204-960.webp"
+      ],
+      "sourceSha256": "6f77eecb967fc51472103757cc9dbf587a1740ba0eee0539730f829427520bcd"
+    },
+    {
+      "id": "WS-205",
+      "stone": "Firoza",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-205: Firoza with the name Imam Muhammad al-Baqir. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «محمد الباقر». It must read محمد الباقر accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-f588f6a7-ba72-4d5c-b167-fefffb180474.png",
+      "files": [
+        "public/assets/products/ws-205-480.webp",
+        "public/assets/products/ws-205-960.webp"
+      ],
+      "sourceSha256": "b53405b7b996d3760a32fa55ccd3808cd2fea394c8b70765a683b832501d4c5e"
+    },
+    {
+      "id": "WS-206",
+      "stone": "Firoza",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-206: Firoza with the name Imam Jafar al-Sadiq. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «جعفر الصادق». It must read جعفر الصادق accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-e1cf9ae2-fac8-48af-a154-4a576217168d.png",
+      "files": [
+        "public/assets/products/ws-206-480.webp",
+        "public/assets/products/ws-206-960.webp"
+      ],
+      "sourceSha256": "e883d2522f602da5f381ea6ca7a2ee8df7175c4909a9f993b167bc45e8045852"
+    },
+    {
+      "id": "WS-207",
+      "stone": "Firoza",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-207: Firoza with the name Imam Musa al-Kazim. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «موسى الكاظم». It must read موسى الكاظم accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-b8bddb66-7f44-4d05-98a8-036f67c91f5d.png",
+      "files": [
+        "public/assets/products/ws-207-480.webp",
+        "public/assets/products/ws-207-960.webp"
+      ],
+      "sourceSha256": "0a2bbadd17eda89fa720604c1093ccce455bb4edf4d78acf258123077b73248b"
+    },
+    {
+      "id": "WS-208",
+      "stone": "Firoza",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-208: Firoza with the name Imam Ali al-Rida. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «علي الرضا». It must read علي الرضا accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-0d174e13-0790-4078-9228-073993181ae9.png",
+      "files": [
+        "public/assets/products/ws-208-480.webp",
+        "public/assets/products/ws-208-960.webp"
+      ],
+      "sourceSha256": "fc1da690e4fe7e555b496578d895eb3ae16db5059e53052207bc7c7cebf1e60c"
+    },
+    {
+      "id": "WS-209",
+      "stone": "Firoza",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-209: Firoza with the name Imam Muhammad al-Jawad. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «محمد الجواد». It must read محمد الجواد accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-55c9e2b1-20b1-45a4-a7e8-46edf646a4b0.png",
+      "files": [
+        "public/assets/products/ws-209-480.webp",
+        "public/assets/products/ws-209-960.webp"
+      ],
+      "sourceSha256": "9a84c5cec574216bd421150037527aba0a534b61f31469bfc81de1f503519a09"
+    },
+    {
+      "id": "WS-210",
+      "stone": "Firoza",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-210: Firoza with the name Imam Ali al-Hadi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «علي الهادي». It must read علي الهادي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-dbd0d23a-4466-4f0c-9ca6-6e867dfd0250.png",
+      "files": [
+        "public/assets/products/ws-210-480.webp",
+        "public/assets/products/ws-210-960.webp"
+      ],
+      "sourceSha256": "ab84a38996960d7f6535312fe6bed339bd1c7491e5b09c4c6f31ecf3d64efd30"
+    },
+    {
+      "id": "WS-211",
+      "stone": "Firoza",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-211: Firoza with the name Imam Hasan al-Askari. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «حسن العسكري». It must read حسن العسكري accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-adcb6fdf-3eb1-4d66-98fe-1f76ed4b103f.png",
+      "files": [
+        "public/assets/products/ws-211-480.webp",
+        "public/assets/products/ws-211-960.webp"
+      ],
+      "sourceSha256": "dcc2b88ad5a5aae91146969f06603173990bd263f5636175a393b02c8fb52994"
+    },
+    {
+      "id": "WS-212",
+      "stone": "Firoza",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-212: Firoza with the name Imam Muhammad al-Mahdi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval opaque natural turquoise-blue cabochon with a very subtle fine grey-brown matrix near the edges, a clean central area for the recessed dark-grey engraving. Inscribe ONLY this exact Arabic name: «محمد المهدي». It must read محمد المهدي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-2e72f1b0-4575-46e1-a22a-0e3033c9d142.png",
+      "files": [
+        "public/assets/products/ws-212-480.webp",
+        "public/assets/products/ws-212-960.webp"
+      ],
+      "sourceSha256": "7a0adc0f26d4befdefc7de3acf8fb5124ae80d28afa6906c986855001d4caf83"
+    },
+    {
+      "id": "WS-301",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-301: Dur-e-Najaf with the name Imam Ali. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «علي». It must read علي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-740357af-2052-412d-94d6-958084ecd7c1.png",
+      "files": [
+        "public/assets/products/ws-301-480.webp",
+        "public/assets/products/ws-301-960.webp"
+      ],
+      "sourceSha256": "871215734630039eb53c64496baa899b4c3dd276ff44b0b4f1c3794bd5bff143"
+    },
+    {
+      "id": "WS-302",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-302: Dur-e-Najaf with the name Imam Hasan. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «حسن». It must read حسن accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-a5e856b9-6297-4cb2-9b1f-939314d81a95.png",
+      "files": [
+        "public/assets/products/ws-302-480.webp",
+        "public/assets/products/ws-302-960.webp"
+      ],
+      "sourceSha256": "ef583102fa5dcc0dc0504b36014ccfc69e755c757400186433ea9bd38dfa1959"
+    },
+    {
+      "id": "WS-303",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-303: Dur-e-Najaf with the name Imam Husayn. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «حسين». It must read حسين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-7c55a405-ce42-4f93-9cde-ee054aeb9ed5.png",
+      "files": [
+        "public/assets/products/ws-303-480.webp",
+        "public/assets/products/ws-303-960.webp"
+      ],
+      "sourceSha256": "a7269bf5b98e563f64d670e10e82b8e442ef8e2e2fb0c8cd7b48fce34c11f5be"
+    },
+    {
+      "id": "WS-304",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-304: Dur-e-Najaf with the name Imam Zayn al-Abidin. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «زين العابدين». It must read زين العابدين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-c02cabbe-5d14-4d31-8473-8f203364c7e0.png",
+      "files": [
+        "public/assets/products/ws-304-480.webp",
+        "public/assets/products/ws-304-960.webp"
+      ],
+      "sourceSha256": "9a490bcae80571554333c83b935263edd6f7ab89e1758cb9b9247a2cc9c68c4a"
+    },
+    {
+      "id": "WS-305",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-305: Dur-e-Najaf with the name Imam Muhammad al-Baqir. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «محمد الباقر». It must read محمد الباقر accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-86d29a55-7310-4c46-a320-a877ce26aaea.png",
+      "files": [
+        "public/assets/products/ws-305-480.webp",
+        "public/assets/products/ws-305-960.webp"
+      ],
+      "sourceSha256": "191944e758c44746ba7914f02ef38b779ed103fb4f36eb39b8675c182a02195f"
+    },
+    {
+      "id": "WS-306",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-306: Dur-e-Najaf with the name Imam Jafar al-Sadiq. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «جعفر الصادق». It must read جعفر الصادق accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-dc5436e4-3cb1-4ae3-a85b-89b5ed0e6d80.png",
+      "files": [
+        "public/assets/products/ws-306-480.webp",
+        "public/assets/products/ws-306-960.webp"
+      ],
+      "sourceSha256": "10c208291e707aef4025c7cee0aa189e8cd8d0cf5182e5bb90c821c7e1bac0ac"
+    },
+    {
+      "id": "WS-307",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-307: Dur-e-Najaf with the name Imam Musa al-Kazim. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «موسى الكاظم». It must read موسى الكاظم accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-bfc6250d-d1ba-42aa-8f0e-840ffdf50e99.png",
+      "files": [
+        "public/assets/products/ws-307-480.webp",
+        "public/assets/products/ws-307-960.webp"
+      ],
+      "sourceSha256": "dd2a4119c6e80aca8a789dd9631a16b396db73811d305bdb09f290fbf3cd97c1"
+    },
+    {
+      "id": "WS-308",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-308: Dur-e-Najaf with the name Imam Ali al-Rida. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «علي الرضا». It must read علي الرضا accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-a4e8b7f4-e9d7-4b66-868f-bda1968e4f21.png",
+      "files": [
+        "public/assets/products/ws-308-480.webp",
+        "public/assets/products/ws-308-960.webp"
+      ],
+      "sourceSha256": "e0afb6916c65df579060135813be209623398d2607aa33e2db9b130d77f40959"
+    },
+    {
+      "id": "WS-309",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-309: Dur-e-Najaf with the name Imam Muhammad al-Jawad. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «محمد الجواد». It must read محمد الجواد accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-fc93e74f-77b6-47eb-871a-505a9a172137.png",
+      "files": [
+        "public/assets/products/ws-309-480.webp",
+        "public/assets/products/ws-309-960.webp"
+      ],
+      "sourceSha256": "38df4d793b063f0f2f78318ba0a10120d66e1c0451e01b1e62e2342ca0959a9b"
+    },
+    {
+      "id": "WS-310",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-310: Dur-e-Najaf with the name Imam Ali al-Hadi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «علي الهادي». It must read علي الهادي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-eec1dcf3-7929-4be3-9b93-a9d54a17e161.png",
+      "files": [
+        "public/assets/products/ws-310-480.webp",
+        "public/assets/products/ws-310-960.webp"
+      ],
+      "sourceSha256": "ca72f3fa1e7f38c7f0948d6746917e518772399a15cc9ac28dc8afc3bf0e0380"
+    },
+    {
+      "id": "WS-311",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-311: Dur-e-Najaf with the name Imam Hasan al-Askari. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «حسن العسكري». It must read حسن العسكري accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-250bf90c-3d5d-47ae-9af7-f855c8a9762e.png",
+      "files": [
+        "public/assets/products/ws-311-480.webp",
+        "public/assets/products/ws-311-960.webp"
+      ],
+      "sourceSha256": "e6ab71f05b29e84cf846cd03483953c6b134b998aa7433ca8bbf4ddb371f24f3"
+    },
+    {
+      "id": "WS-312",
+      "stone": "Dur-e-Najaf",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-312: Dur-e-Najaf with the name Imam Muhammad al-Mahdi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval clear colourless quartz cabochon, realistic crystalline transparency, subtle internal inclusions, frosted light-grey incised lettering that remains legible. Inscribe ONLY this exact Arabic name: «محمد المهدي». It must read محمد المهدي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-381175aa-0cbf-4293-aee5-5b1ad3d32be4.png",
+      "files": [
+        "public/assets/products/ws-312-480.webp",
+        "public/assets/products/ws-312-960.webp"
+      ],
+      "sourceSha256": "9d8b6cce21a3c442333f80414fa2475de0567ed2c7c6a3c7e2d7ec22f13080e7"
+    },
+    {
+      "id": "WS-401",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Ali",
+      "arabic": "علي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-401: Hadeed-e-Chini with the name Imam Ali. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «علي». It must read علي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-805fe285-b791-402f-882e-fbbf48d299d3.png",
+      "files": [
+        "public/assets/products/ws-401-480.webp",
+        "public/assets/products/ws-401-960.webp"
+      ],
+      "sourceSha256": "d20d177d8a2c95dc82458e0c28791d07892522928eacfc76c992b70ff094cbdf"
+    },
+    {
+      "id": "WS-402",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Hasan",
+      "arabic": "حسن",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-402: Hadeed-e-Chini with the name Imam Hasan. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «حسن». It must read حسن accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-9a9dfcd4-7455-444b-8823-759be267242c.png",
+      "files": [
+        "public/assets/products/ws-402-480.webp",
+        "public/assets/products/ws-402-960.webp"
+      ],
+      "sourceSha256": "fb88edb8b01e32eb555ed11242ad8c5a90f8f54b9d7bbce3c3c69800124f8624"
+    },
+    {
+      "id": "WS-403",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Husayn",
+      "arabic": "حسين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-403: Hadeed-e-Chini with the name Imam Husayn. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «حسين». It must read حسين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-0f68679c-9397-4280-a890-4a963ffac9ce.png",
+      "files": [
+        "public/assets/products/ws-403-480.webp",
+        "public/assets/products/ws-403-960.webp"
+      ],
+      "sourceSha256": "55965c241ef71a92c8c6666e458dbb2930601bbf3dd00e7f013157068e3ccc3c"
+    },
+    {
+      "id": "WS-404",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Zayn al-Abidin",
+      "arabic": "زين العابدين",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-404: Hadeed-e-Chini with the name Imam Zayn al-Abidin. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «زين العابدين». It must read زين العابدين accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-29314d3e-dea8-4dc7-b8ac-698af6450220.png",
+      "files": [
+        "public/assets/products/ws-404-480.webp",
+        "public/assets/products/ws-404-960.webp"
+      ],
+      "sourceSha256": "a79f7eb6f3eabc1c93bb0a65e7e9d7f68cb116a34b134edfb0a8ec1a2a5722ed"
+    },
+    {
+      "id": "WS-405",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Muhammad al-Baqir",
+      "arabic": "محمد الباقر",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-405: Hadeed-e-Chini with the name Imam Muhammad al-Baqir. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «محمد الباقر». It must read محمد الباقر accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-6aaeeafd-dd61-4ec5-b53b-bd7ce7165458.png",
+      "files": [
+        "public/assets/products/ws-405-480.webp",
+        "public/assets/products/ws-405-960.webp"
+      ],
+      "sourceSha256": "4ad34a5b6f0dc2f74240554b824253fd669b1bf48eca4eed233fb37fec09bd8b"
+    },
+    {
+      "id": "WS-406",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Jafar al-Sadiq",
+      "arabic": "جعفر الصادق",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-406: Hadeed-e-Chini with the name Imam Jafar al-Sadiq. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «جعفر الصادق». It must read جعفر الصادق accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-574e64dd-9fb3-4486-9a32-9fcc7900b05f.png",
+      "files": [
+        "public/assets/products/ws-406-480.webp",
+        "public/assets/products/ws-406-960.webp"
+      ],
+      "sourceSha256": "7fb2d27dad4928a6905eee87f98f5d659d1687d3cd7149ade21bb558c0621eb7"
+    },
+    {
+      "id": "WS-407",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Musa al-Kazim",
+      "arabic": "موسى الكاظم",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-407: Hadeed-e-Chini with the name Imam Musa al-Kazim. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «موسى الكاظم». It must read موسى الكاظم accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-692c11cb-b040-4288-9c43-15f934011c67.png",
+      "files": [
+        "public/assets/products/ws-407-480.webp",
+        "public/assets/products/ws-407-960.webp"
+      ],
+      "sourceSha256": "1e3f95feb3a4c7e8bc4b05a967a4e8578460d06c14b7e608ea04bf286371626e"
+    },
+    {
+      "id": "WS-408",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Ali al-Rida",
+      "arabic": "علي الرضا",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-408: Hadeed-e-Chini with the name Imam Ali al-Rida. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «علي الرضا». It must read علي الرضا accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-710c199b-85ec-43f0-9b17-641c65cb6c9f.png",
+      "files": [
+        "public/assets/products/ws-408-480.webp",
+        "public/assets/products/ws-408-960.webp"
+      ],
+      "sourceSha256": "8d84867ade2cef9d8626ad25338c3f54fc9a6cdd4cc8a54ab7a5af0e503ab2ff"
+    },
+    {
+      "id": "WS-409",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Muhammad al-Jawad",
+      "arabic": "محمد الجواد",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-409: Hadeed-e-Chini with the name Imam Muhammad al-Jawad. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «محمد الجواد». It must read محمد الجواد accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-a6aca7e7-2413-488a-b874-233077e02de2.png",
+      "files": [
+        "public/assets/products/ws-409-480.webp",
+        "public/assets/products/ws-409-960.webp"
+      ],
+      "sourceSha256": "c1ffdd8ae7b514ca1e3ae96b3e8ae4f5218a2c84a927c7f8ba996d781754ec58"
+    },
+    {
+      "id": "WS-410",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Ali al-Hadi",
+      "arabic": "علي الهادي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-410: Hadeed-e-Chini with the name Imam Ali al-Hadi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «علي الهادي». It must read علي الهادي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-d073d845-4542-4a95-ba57-7b72868d8a10.png",
+      "files": [
+        "public/assets/products/ws-410-480.webp",
+        "public/assets/products/ws-410-960.webp"
+      ],
+      "sourceSha256": "05ae984b615964629b17aed0fb4cfa016059b1365aa257e867d3be955791f569"
+    },
+    {
+      "id": "WS-411",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Hasan al-Askari",
+      "arabic": "حسن العسكري",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-411: Hadeed-e-Chini with the name Imam Hasan al-Askari. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «حسن العسكري». It must read حسن العسكري accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-71306422-2842-4ae1-bf67-b17dfb356e8c.png",
+      "files": [
+        "public/assets/products/ws-411-480.webp",
+        "public/assets/products/ws-411-960.webp"
+      ],
+      "sourceSha256": "0a05290c29ab00f7522f8b3afc3e6d4364fc1aad708c7ecbcc31dbf81be70151"
+    },
+    {
+      "id": "WS-412",
+      "stone": "Hadeed-e-Chini",
+      "engraving": "Imam Muhammad al-Mahdi",
+      "arabic": "محمد المهدي",
+      "prompt": "Use case: product-mockup. Edit the reference ring image into the Wilayah Stone catalogue variant WS-412: Hadeed-e-Chini with the name Imam Muhammad al-Mahdi. Preserve the reference image's silver ring construction, carved arabesque silver shoulders, scalloped bezel, complete-ring framing, soft ivory studio backdrop, lighting direction and realistic metal texture. Change ONLY the gemstone and the inscription. Gemstone: oval dark charcoal metallic-grey polished hematite cabochon, realistic restrained metallic reflections, precise light silvery-grey incised engraving. Inscribe ONLY this exact Arabic name: «محمد المهدي». It must read محمد المهدي accurately, with the correct dots, no missing letters and no additional words, no honorifics. For two words, arrange the first word above the second word, elegantly centered in the oval. Use restrained, clear Naskh-inspired calligraphy, legible real Arabic, engraved into the stone. Recessed marks must follow the cabochon's surface with realistic shadow, not a floating graphic. One complete ring centered in a square 1:1 composition, no cropping; leave quiet margins. This is an individual design render for a maker to reproduce as a made-to-order ring. Jewellery only. No people, hands, faces, couples, secondary rings, logos, watermarks, caption text, labels, certificates, hallmarks, or extra inscriptions.",
+      "sourceFile": "exec-28633d5e-28a9-4e2a-a00c-fa9ea08b169b.png",
+      "files": [
+        "public/assets/products/ws-412-480.webp",
+        "public/assets/products/ws-412-960.webp"
+      ],
+      "sourceSha256": "0fdd6566c993841d4db63e9692d60536ceedf511b32bdc72f7c993aee78f6673"
+    },
+    {
+      "id": "WS-501",
+      "stone": "Yaqoot ruby",
+      "engraving": "Plain",
+      "sourceFile": "exec-c11f69a8-d353-4160-9e95-c10a55f0888e.png",
+      "files": [
+        "public/assets/products/ws-501-480.webp",
+        "public/assets/products/ws-501-960.webp"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE premium realistic e-commerce image for Wilayah Stone men's made-to-order Yaqoot ruby silver ring, product SKU WS-501. This is a design render to guide a real jeweller making this model. Subject: a deep raspberry-red oval polished ruby cabochon with subtle internal inclusions, plain stone with absolutely no engraving and no lettering. Solid polished sterling-silver-coloured shank with restrained hand-carved arabesque silver shoulders, neat scalloped silver bezel appropriate for the stone. One ring only on a matte warm ivory studio surface, seamless ivory background, soft upper-left studio daylight, restrained silver microtexture, gentle grounded shadow. Three-quarter front view showing gemstone face and both details of the shoulder; ring complete, uncut, centered, about 70% of square 1:1 frame with generous 15% clean margins. Visual style: refined premium jewellery catalogue, realistic materials, not plastic. No people, no hands, no faces, no couples, no text, no logo, no watermark, no certificates, no hallmarks, no props.",
+      "sourceSha256": "55ad22465944e2f3906dd58ec0c2f17880e68420b0c947b182396d9137936917"
+    },
+    {
+      "id": "WS-601",
+      "stone": "Peridot",
+      "engraving": "Plain",
+      "sourceFile": "exec-097e5623-1c42-4bcd-8de1-2c2ff8fe2449.png",
+      "files": [
+        "public/assets/products/ws-601-480.webp",
+        "public/assets/products/ws-601-960.webp"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE premium realistic e-commerce image for Wilayah Stone men's made-to-order Peridot silver ring, product SKU WS-601. This is a design render to guide a real jeweller making this model. Subject: an oval faceted peridot gemstone, luminous natural yellow-green, restrained realistic internal reflections, plain stone with absolutely no engraving and no lettering. Solid polished sterling-silver-coloured shank with restrained hand-carved arabesque silver shoulders, neat scalloped silver bezel appropriate for the stone. One ring only on a matte warm ivory studio surface, seamless ivory background, soft upper-left studio daylight, restrained silver microtexture, gentle grounded shadow. Three-quarter front view showing gemstone face and both details of the shoulder; ring complete, uncut, centered, about 70% of square 1:1 frame with generous 15% clean margins. Visual style: refined premium jewellery catalogue, realistic materials, not plastic. No people, no hands, no faces, no couples, no text, no logo, no watermark, no certificates, no hallmarks, no props.",
+      "sourceSha256": "0e84d9427589654a22078785eb71814102ed56f62a50e923d34a6617a02d5729"
+    },
+    {
+      "id": "WS-701",
+      "stone": "Emerald",
+      "engraving": "Plain",
+      "sourceFile": "exec-3dc8be9a-7ed8-4694-b6b4-c828bb5f3230.png",
+      "files": [
+        "public/assets/products/ws-701-480.webp",
+        "public/assets/products/ws-701-960.webp"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE premium realistic e-commerce image for Wilayah Stone men's made-to-order Emerald silver ring, product SKU WS-701. This is a design render to guide a real jeweller making this model. Subject: an emerald-cut deep green emerald gemstone with subtle visible garden inclusions and realistic step-cut reflections, plain stone with absolutely no engraving and no lettering. Solid polished sterling-silver-coloured shank with restrained hand-carved arabesque silver shoulders, neat scalloped silver bezel appropriate for the stone. One ring only on a matte warm ivory studio surface, seamless ivory background, soft upper-left studio daylight, restrained silver microtexture, gentle grounded shadow. Three-quarter front view showing gemstone face and both details of the shoulder; ring complete, uncut, centered, about 70% of square 1:1 frame with generous 15% clean margins. Visual style: refined premium jewellery catalogue, realistic materials, not plastic. No people, no hands, no faces, no couples, no text, no logo, no watermark, no certificates, no hallmarks, no props.",
+      "sourceSha256": "9161deb560dca26893230be4cb1c3fc2f3ca5e8347e79f197da004cd66d5edea"
+    },
+    {
+      "id": "WS-801",
+      "stone": "Marjaan coral",
+      "engraving": "Plain",
+      "sourceFile": "exec-e8932347-2641-415c-a7c2-106365cc09f6.png",
+      "files": [
+        "public/assets/products/ws-801-480.webp",
+        "public/assets/products/ws-801-960.webp"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE premium realistic e-commerce image for Wilayah Stone men's made-to-order Marjaan coral silver ring, product SKU WS-801. This is a design render to guide a real jeweller making this model. Subject: a warm natural coral-red opaque oval smoothly polished cabochon with very subtle organic texture, plain stone with absolutely no engraving and no lettering. Solid polished sterling-silver-coloured shank with restrained hand-carved arabesque silver shoulders, neat scalloped silver bezel appropriate for the stone. One ring only on a matte warm ivory studio surface, seamless ivory background, soft upper-left studio daylight, restrained silver microtexture, gentle grounded shadow. Three-quarter front view showing gemstone face and both details of the shoulder; ring complete, uncut, centered, about 70% of square 1:1 frame with generous 15% clean margins. Visual style: refined premium jewellery catalogue, realistic materials, not plastic. No people, no hands, no faces, no couples, no text, no logo, no watermark, no certificates, no hallmarks, no props.",
+      "sourceSha256": "295856eae0d1c12b87cac2d1449c9b1c51351a939cd2762a4b61af9cdaad5e6a"
+    }
+  ]
+}

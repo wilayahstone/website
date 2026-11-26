@@ -1,0 +1,16 @@
+{
+  "id": "peridot",
+  "kind": "gemstone",
+  "sourceFile": "exec-205ae504-080b-4d2f-98d4-4fd77b96cddb.png",
+  "sourceSha256": "867c5cf3f5d32772877567dc4d0537ddf27da9eaff1ef5f2a5311f598b9ea1a9",
+  "files": [
+    {
+      "path": "public/assets/stones/peridot-384.webp",
+      "bytes": 22442
+    },
+    {
+      "path": "public/assets/stones/peridot-768.webp",
+      "bytes": 63486
+    }
+  ]
+}
