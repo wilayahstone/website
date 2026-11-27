@@ -4,7 +4,7 @@ import type {Product} from '../../lib/catalog';
 import {productImage} from '../../lib/product-imagery';
 import {ZoomIn} from 'lucide-react';
 
-export function ProductImage({product,large=false,priority=false,className='',view=0,hoverSwap=false}:{product:Pick<Product,'id'|'stone'|'engraving'|'imageIds'>;large?:boolean;priority?:boolean;className?:string;view?:0|1;hoverSwap?:boolean}){
+export function ProductImage({product,large=false,priority=false,className='',view=0,hoverSwap=false}:{product:Pick<Product,'id'|'stone'|'engraving'|'imageIds'>;large?:boolean;priority?:boolean;className?:string;view?:number;hoverSwap?:boolean}){
  const image=productImage(product,view),second=productImage(product,1);
  const secondary=useRef<HTMLImageElement>(null),[secondaryReady,setSecondaryReady]=useState(false);
  useEffect(()=>{setSecondaryReady((secondary.current?.naturalWidth||0)>1)},[product.id,hoverSwap]);

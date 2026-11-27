@@ -2,7 +2,7 @@ import type {Product} from './catalog';
 
 export const ringImageCaption='Design render. Your ring is individually made to the stone, size and engraving agreed with the atelier.';
 
-export function productImage(product:Pick<Product,'id'|'stone'|'engraving'|'imageIds'>,view:0|1=0){
+export function productImage(product:Pick<Product,'id'|'stone'|'engraving'|'imageIds'>,view:number=0){
  const custom=product.imageIds?.[view]||product.imageIds?.[0];if(custom)return {src:'/api/media/'+custom,srcSet:'/api/media/'+custom+' 960w',alt:`${product.stone} silver ring${product.engraving==='Plain'?'':` with ${product.engraving} engraving`} — ${view===1?'detail':'front'} view`};
  const file=product.id.toLowerCase()+(view===1?'-detail':'')+(['WS-105','WS-205','WS-305','WS-207'].includes(product.id)?'-v2':'');
  return {
@@ -12,4 +12,7 @@ export function productImage(product:Pick<Product,'id'|'stone'|'engraving'|'imag
  };
 }
 
-export function productGallery(product:Pick<Product,'id'|'stone'|'engraving'|'imageIds'>){return [productImage(product,0),productImage(product,1)];}
+export function productGallery(product:Pick<Product,'id'|'stone'|'engraving'|'imageIds'>){
+ if(product.imageIds?.length)return product.imageIds.map((_,index)=>productImage(product,index));
+ return [productImage(product,0),productImage(product,1)];
+}

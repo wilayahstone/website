@@ -79,3 +79,17 @@ footer{background:#f5f6f0;border-top:1px solid #dde3d8}.footer-note{color:#64745
 .customer-signout p { margin:8px 0 0; font-size:12px; }
 .account-session-loading { padding:30px 0; color:var(--muted); }
 @media(max-width:480px) { .account-session-bar { padding:14px; gap:12px; } .account-session-bar .outline { min-height:42px; padding:10px 15px; } }
+/* Product detail and catalogue improvements */
+.detail-price{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:18px 0}
+.detail-price .original-price{text-decoration:line-through;color:#7b8279;font-size:16px}
+.detail-price .price-quote{font-size:24px;font-weight:600;color:#083d2e}
+.discount-badge{padding:5px 8px;border-radius:3px;background:#edf2e5;color:#17523e;font-size:12px;font-weight:600}
+.product-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0 24px;border-top:1px solid #e5e6de;border-bottom:1px solid #e5e6de;padding:14px 0}
+.product-meta div{display:flex;flex-direction:column;gap:3px}
+.product-meta dt{font-size:11px;color:#747d73;text-transform:uppercase;letter-spacing:.05em}
+.product-meta dd{margin:0;font-size:13px;font-weight:600}
+.product-description-section{grid-column:1/-1}
+.product-description-section .description-preview,.product-description-section .product-rich-content{padding:0}
+.admin-gallery-item{border:1px solid #e5e6de;border-radius:4px;padding:10px;min-width:0}
+.admin-gallery-item .row{margin-top:8px;justify-content:flex-start;gap:8px}
+.admin-gallery-item .admin-media-upload{border:0;padding:0}

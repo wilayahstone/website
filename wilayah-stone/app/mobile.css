@@ -179,3 +179,4 @@
   .site-header .navbar-search button{width:32px;height:36px}
   .site-header .search-suggestions{left:auto;right:5%;width:min(700px,90vw);padding:22px 26px}
 }
+.product-meta{grid-template-columns:1fr 1fr 1fr}

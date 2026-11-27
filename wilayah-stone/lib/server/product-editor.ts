@@ -15,9 +15,15 @@ const schema=z.object({
  id:productId,sku:z.string().trim().toUpperCase().max(40).default(''),
  name:text(150),stone:z.string().max(60).refine(v=>!v||stones.includes(v)).default(''),engraving:text(100),metal:z.literal('925 sterling silver').default('925 sterling silver'),
  price:z.number().finite().min(0).max(100000000).nullable().default(null),status:z.enum(['Design preview','Unavailable','Ready for review']).default('Design preview'),
+ originalPrice:z.number().finite().min(0).max(100000000).nullable().default(null),
+ discountedPrice:z.number().finite().min(0).max(100000000).nullable().default(null),
+ discountPercent:z.number().finite().min(0).max(100).nullable().default(null),
+ soldCount:z.number().int().min(0).max(100000000).default(0),
+ availableQuantity:z.number().int().min(0).max(100000000).default(0),
+ condition:z.string().trim().max(60).default('New'),
  weight:text(100),dimensions:text(100),origin:text(100),treatment:text(100),description:text(DESCRIPTION_TEXT_LIMIT),supplier:text(200),
  capacity:z.number().int().min(0).max(10000).default(0),deliveryDays:z.number().int().min(0).max(365).default(0),verified:z.boolean().default(false),
- imageIds:z.array(z.string().uuid()).max(2).optional(),published:z.boolean().optional(),
+ imageIds:z.array(z.string().uuid()).max(8).optional(),published:z.boolean().optional(),
 });
 function invalidFields(error:z.ZodError){const labels:Record<string,string>={id:'product reference',sku:'SKU',name:'product name',stone:'gemstone',engraving:'engraving / design name',description:'product description',price:'internal price',imageIds:'product images',capacity:'reserved units',deliveryDays:'production days'};const fields=[...new Set(error.issues.map(issue=>labels[String(issue.path[0])]||String(issue.path[0]||'product details')))];return new HttpError(400,'Check the '+fields.join(', ')+'. Your changes are still in the editor.')}
 

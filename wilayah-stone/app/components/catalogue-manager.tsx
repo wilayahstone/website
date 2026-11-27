@@ -1,6 +1,6 @@
 'use client';
 import {lazy,Suspense,useEffect,useRef,useState} from 'react';
-import {Plus,ArrowUpRight,Search,Save,Send} from 'lucide-react';
+import {Plus,ArrowUpRight,Search,Save,Send,ChevronLeft,ChevronRight,Trash2} from 'lucide-react';
 import {stones,type Product} from '../../lib/catalog';
 import {parseProductDescription,descriptionText,type ProductDescription} from '../../lib/product-description';
 import type {DescriptionEditorHandle} from './rich-description-editor';
@@ -18,18 +18,56 @@ type EditorState={ready:boolean;valid:boolean;draftValid:boolean;uploading:boole
 function localDateTime(value:string){const date=new Date(value);return new Date(date.getTime()-date.getTimezoneOffset()*60000).toISOString().slice(0,16)}
 const emptyEditorState:EditorState={ready:false,valid:false,draftValid:false,uploading:false,issue:''};
 export function CatalogueManager({products,suppliers,busy,mutate,canWrite,canArchive}:{products:Product[];suppliers:any[];busy:boolean;mutate:Mutate;canWrite:boolean;canArchive:boolean}){
- const [query,setQuery]=useState(''),[filter,setFilter]=useState('All products'),[editing,setEditing]=useState<Product|null>(null),[creating,setCreating]=useState(false),[uploading,setUploading]=useState<Record<number,boolean>>({}),[descriptionState,setDescriptionState]=useState<EditorState>(emptyEditorState),[issues,setIssues]=useState<string[]>([]),[saving,setSaving]=useState<'draft'|'publish'|'schedule'|null>(null);
- const original=useRef(''),savingLock=useRef(false),errorBox=useRef<HTMLDivElement>(null),descriptionEditor=useRef<DescriptionEditorHandle>(null);
+ const [query,setQuery]=useState(''),[filter,setFilter]=useState('All products'),[editing,setEditing]=useState<Product|null>(null),[creating,setCreating]=useState(false),[uploading,setUploading]=useState<Record<number,boolean>>({}),[descriptionState,setDescriptionState]=useState<EditorState>(emptyEditorState),[issues,setIssues]=useState<string[]>([]),[saving,setSaving]=useState<'draft'|'publish'|'schedule'|null>(null),[autoSaveStatus,setAutoSaveStatus]=useState<'Saving…'|'Saved'|'Saved locally'|'Offline — saved locally'|''>('');
+ const original=useRef(''),savingLock=useRef(false),errorBox=useRef<HTMLDivElement>(null),descriptionEditor=useRef<DescriptionEditorHandle>(null),autoSaveTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
  const dirty=!!editing&&JSON.stringify(editing)!==original.current,locked=busy||saving!==null;
  useEffect(()=>{if(!dirty)return;const warn=(event:BeforeUnloadEvent)=>{event.preventDefault();event.returnValue=''};window.addEventListener('beforeunload',warn);return()=>window.removeEventListener('beforeunload',warn)},[dirty]);
+ useEffect(()=>{
+  if(!editing||!dirty)return;
+  setAutoSaveStatus('Saving…');
+  if(autoSaveTimer.current)clearTimeout(autoSaveTimer.current);
+  autoSaveTimer.current=setTimeout(()=>{
+   const snapshotDescription=descriptionEditor.current?.snapshot().doc;
+   const snapshot={...editing,description:snapshotDescription?descriptionText(snapshotDescription):editing.description,descriptionRichText:snapshotDescription||editing.descriptionRichText};
+   try{
+    localStorage.setItem('ws-product-draft-'+editing.id,JSON.stringify(snapshot));
+    setAutoSaveStatus(navigator.onLine?'Saved locally':'Offline — saved locally');
+   }catch{setAutoSaveStatus('Offline — saved locally')}
+  },800);
+  return()=>{if(autoSaveTimer.current)clearTimeout(autoSaveTimer.current)};
+ },[editing,dirty]);
+ useEffect(()=>{
+  if(!editing||!dirty||Object.values(uploading).some(Boolean)||!descriptionState.ready)return;
+  const timer=setTimeout(()=>{
+   const current=descriptionEditor.current?.snapshot();
+   if(!current?.ready||current.uploading||current.dialogOpen)return;
+   const data={...editing,description:descriptionText(current.doc),descriptionRichText:current.doc,imageIds:(editing.imageIds||[]).filter(Boolean)};
+   setAutoSaveStatus(navigator.onLine?'Saving…':'Offline — saved locally');
+   void mutate('product',{intent:'draft',create:creating,expectedUpdatedAt:creating?undefined:editing.updated,data},'Draft auto-saved.').then(ok=>{
+    if(ok){setAutoSaveStatus('Saved');setCreating(false);original.current=JSON.stringify(editing)}
+   });
+  },12000);
+  return()=>clearTimeout(timer);
+ },[editing,dirty,creating,uploading,descriptionState.ready,mutate]);
  function start(product?:Product){
   setDescriptionState(emptyEditorState);setUploading({});setIssues([]);setCreating(!product);
-  const value:Product=product?structuredClone(product):{id:'PRD-'+crypto.randomUUID().replace(/-/g,'').slice(0,20).toUpperCase(),sku:'',name:'',stone:'',engraving:'Plain',metal:'925 sterling silver',price:null,status:'Design preview',weight:'',dimensions:'',origin:'',treatment:'',description:'',supplier:'',capacity:0,deliveryDays:0,verified:false,published:false,custom:true,imageIds:[]};
+  const newValue:Product={id:'PRD-'+crypto.randomUUID().replace(/-/g,'').slice(0,20).toUpperCase(),sku:'',name:'',stone:'',engraving:'Plain',metal:'925 sterling silver',price:null,originalPrice:null,discountedPrice:null,discountPercent:null,soldCount:0,availableQuantity:0,condition:'New',status:'Design preview',weight:'',dimensions:'',origin:'',treatment:'',description:'',supplier:'',capacity:0,deliveryDays:0,verified:false,published:false,custom:true,imageIds:[]};
+  let value:Product;
+  if(product)value=structuredClone(product);
+  else{
+   try{
+    const keys=Object.keys(localStorage).filter(key=>key.startsWith('ws-product-draft-'));
+    let recovered:Product|null=null;
+    for(const key of keys){try{const candidate=JSON.parse(localStorage.getItem(key)||'null') as Product|null;if(candidate?.id?.startsWith('PRD-')&&(candidate.name||candidate.description||candidate.imageIds?.length))recovered=candidate}catch{}}
+    value=recovered||newValue;
+   }catch{value=newValue}
+  }
   original.current=JSON.stringify(value);setEditing(value);window.scrollTo({top:0,behavior:'smooth'});
  }
  function close(){if(locked)return;if(dirty&&!window.confirm('Discard the unsaved changes? Choose Cancel to continue editing and save a draft.'))return;setEditing(null);setIssues([])}
  const update=(key:keyof Product,value:any)=>{setIssues([]);setEditing(old=>old?{...old,[key]:value}:old)};
- const image=(index:number,id:string)=>{const values=[...(editing?.imageIds||[])];values[index]=id;update('imageIds',values)};
+ const image=(index:number,id:string)=>{const values=[...(editing?.imageIds||[])];if(id)values[index]=id;else values.splice(index,1);update('imageIds',values)};
+ const moveImage=(index:number,direction:-1|1)=>{const values=[...(editing?.imageIds||[])],next=index+direction;if(next<0||next>=values.length)return;[values[index],values[next]]=[values[next],values[index]];update('imageIds',values)};
  function showIssues(messages:string[]){setIssues(messages);requestAnimationFrame(()=>errorBox.current?.focus())}
  async function save(intent:'draft'|'publish'|'schedule'){
   if(!editing||savingLock.current||locked)return;
@@ -43,7 +81,7 @@ export function CatalogueManager({products,suppliers,busy,mutate,canWrite,canArc
   savingLock.current=true;setSaving(intent);setIssues([]);
   try{const ok=await mutate('product',{intent,create:creating,expectedUpdatedAt:creating?undefined:editing.updated,data},intent==='schedule'?'Listing scheduled. It will appear automatically at the selected time.':intent==='draft'?'Draft saved. Reopen it from the Drafts list to continue editing.':creating?'Product created and published.':editing.published===false?'Product published.':'Product changes saved.');if(ok){original.current='';setEditing(null);setFilter(intent==='draft'?'Drafts':intent==='schedule'?'Scheduled':'Published');setQuery('')}else showIssues(['The product could not be saved. Your work is still in the editor. Check the message above, then try again.'])}finally{savingLock.current=false;setSaving(null)}
  }
- const visible=products.filter(p=>(filter==='All products'||filter==='Drafts'&&listingState(p)==='Draft'||filter==='Published'&&listingState(p)==='Published'||filter==='Scheduled'&&listingState(p)==='Scheduled')&&[p.id,p.sku,p.name,p.stone,...(p.variations||[]).map(variation=>variation.sku)].join(' ').toLowerCase().includes(query.toLowerCase()));
+ const visible=products.filter(p=>(filter==='All products'||filter==='Drafts'&&listingState(p)==='Draft'||filter==='Published'&&listingState(p)==='Published'||filter==='Scheduled'&&listingState(p)==='Scheduled')&&[p.id,p.sku,p.name,p.stone,...(p.variations||[]).map(variation=>variation.sku)].join(' ').toLowerCase().includes(query.toLowerCase())).sort((a,b)=>{const aTime=Date.parse(a.updated||a.publishAt||'')||0,bTime=Date.parse(b.updated||b.publishAt||'')||0;return bTime-aTime});
  return <>
   <div className="workspace-heading"><div><h2>Products & catalogue</h2><p>Create products, manage SKUs and images, and return to saved drafts whenever you need.</p></div>{canWrite&&<button type="button" className="primary" disabled={locked||!!editing} onClick={()=>start()}><Plus size={17}/>Add product</button>}</div>
   {editing&&<form className="admin-panel catalogue-editor" noValidate onKeyDown={event=>{if(event.key==='Enter'&&event.target instanceof HTMLInputElement&&!event.target.closest('dialog'))event.preventDefault()}} onSubmit={event=>{event.preventDefault();const button=(event.nativeEvent as SubmitEvent).submitter as HTMLButtonElement|null;void save(button?.value==='draft'?'draft':button?.value==='schedule'?'schedule':'publish')}}>
@@ -61,12 +99,20 @@ export function CatalogueManager({products,suppliers,busy,mutate,canWrite,canArc
    <AttributeManager attributes={editing.attributes||[]} options={editing.variationOptions||[]} disabled={locked} onChange={value=>update('attributes',value)} onOptions={value=>update('variationOptions',value)}/>
    <VolumePricingManager enabled={editing.volumePricingEnabled||false} tiers={editing.quantityDiscounts||[]} disabled={locked} onChange={(enabled,tiers)=>{update('volumePricingEnabled',enabled);update('quantityDiscounts',tiers)}}/>
    <VariationManager key={'variations-'+editing.id} value={{variationOptions:editing.variationOptions||[],variations:editing.variations||[],showVariationPrices:editing.showVariationPrices||false}} disabled={locked} onChange={value=>{setIssues([]);setEditing(old=>old?{...old,...value}:old)}}/>
-   <h4>Product images</h4><p className="small">New products need a main and detail view before publishing. Existing catalogue images stay in place until replaced. A draft can be saved with images still to come.</p>
-   <div className="admin-image-grid">{[0,1].map(index=><MediaUpload key={editing.id+'-'+index} purpose="product-image" label={index?'Detail / hover image':'Main product image'} value={editing.imageIds?.[index]} onChange={id=>image(index,id)} onBusyChange={value=>setUploading(old=>({...old,[index]:value}))} disabled={locked}/>)}</div>
+   <h4>Product images</h4><p className="small">Add a gallery of up to eight images. Reorder or remove images before publishing.</p>
+   {autoSaveStatus&&<p className="small" role="status">Draft: {autoSaveStatus}</p>}
+   <div className="admin-image-grid">{(editing.imageIds||[]).map((id,index)=><div className="admin-gallery-item" key={id+'-'+index}><MediaUpload purpose="product-image" label={index===0?'Main product image':`Gallery image ${index+1}`} value={id} onChange={next=>image(index,next)} onBusyChange={value=>setUploading(old=>({...old,[index]:value}))} disabled={locked}/><div className="row"><button type="button" className="text-link" disabled={locked||index===0} onClick={()=>moveImage(index,-1)}><ChevronLeft size={15}/>Move left</button><button type="button" className="text-link" disabled={locked||index===editing.imageIds!.length-1} onClick={()=>moveImage(index,1)}>Move right<ChevronRight size={15}/></button><button type="button" className="text-link" disabled={locked} onClick={()=>image(index,'')}><Trash2 size={15}/>Remove</button></div></div>)}</div>
+   {(editing.imageIds||[]).length<8&&<button type="button" className="outline" disabled={locked} onClick={()=>update('imageIds',[...(editing.imageIds||[]),''])}>Add gallery image</button>}
    <h4>Specifications & sourcing</h4><div className="form-grid">
     {([['weight','Silver weight and tolerance'],['dimensions','Stone dimensions'],['origin','Disclosed origin'],['treatment','Treatment disclosure']] as const).map(([key,label])=><label key={key}>{label}<input maxLength={100} value={editing[key]} disabled={locked} onChange={event=>update(key,event.target.value)}/></label>)}
     <label>Supplier<select value={editing.supplier} disabled={locked} onChange={event=>update('supplier',event.target.value)}><option value="">Choose supplier</option>{suppliers.map(supplier=><option key={supplier.id} value={supplier.id}>{supplier.data.name}</option>)}</select></label>
     <label>Internal retail price (PKR)<input type="number" min="0" step=".01" value={editing.price??''} disabled={locked} onChange={event=>update('price',event.target.value?Number(event.target.value):null)}/><small>Fallback price for variations. Prices appear publicly only when you enable the variation price display.</small></label>
+    <label>Original price (PKR)<input type="number" min="0" step=".01" value={editing.originalPrice??''} disabled={locked} onChange={event=>update('originalPrice',event.target.value?Number(event.target.value):null)}/></label>
+    <label>Discounted price (PKR)<input type="number" min="0" step=".01" value={editing.discountedPrice??''} disabled={locked} onChange={event=>{const value=event.target.value?Number(event.target.value):null;const percent=editing.originalPrice&&value&&editing.originalPrice>value?Math.round((1-value/editing.originalPrice)*100):null;setEditing(old=>old?{...old,discountedPrice:value,discountPercent:percent}:old)}}/></label>
+    <label>Discount (%)<input type="number" min="0" max="100" step=".01" value={editing.discountPercent??''} disabled={locked} onChange={event=>update('discountPercent',event.target.value?Number(event.target.value):null)}/></label>
+    <label>Sold items<input type="number" min="0" step="1" value={editing.soldCount??0} disabled={locked} onChange={event=>update('soldCount',Number(event.target.value))}/></label>
+    <label>Available quantity<input type="number" min="0" step="1" value={editing.availableQuantity??0} disabled={locked} onChange={event=>update('availableQuantity',Number(event.target.value))}/></label>
+    <label>Condition<input maxLength={60} value={editing.condition||'New'} disabled={locked} onChange={event=>update('condition',event.target.value)}/></label>
     <label>Reserved units<input type="number" min="0" max="10000" value={editing.capacity} disabled={locked} onChange={event=>update('capacity',Number(event.target.value))}/></label>
     <label>Production days<input type="number" min="0" max="365" value={editing.deliveryDays} disabled={locked} onChange={event=>update('deliveryDays',Number(event.target.value))}/></label>
    </div>
